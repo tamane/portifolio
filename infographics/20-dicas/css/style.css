@@ -22,15 +22,15 @@ time, mark, audio, video {
 }
 
 /******CAPA******/
-.wrap{background:url(img/capa-bg.jpg) center top no-repeat;width:640px;height:800px;padding-top:30px;text-align:center;}
+.wrap{background:url(../img/capa-bg.jpg) center top no-repeat;width:640px;height:800px;padding-top:30px;text-align:center;}
 .intro{padding:32px 30px;font-weight:normal;float:left;text-align:left;width:510px;}
 	.intro small{font-size:smaller;}
 .go-btn{padding:60px 0 0 0;float:left;}
 .credits{font-size:11px;font-weight:700;clear:both;text-align:left;padding:0 0 0 30px;}
 
 /*****MESA*****/
-.wrap-mesa{background:url(img/mesa-bg.jpg) center top no-repeat;width:580px;height:740px;padding:30px;position:relative;}
-.titulo-mesa{background:url(img/escolha.png) center top no-repeat;width:511px;height:35px;margin:0 auto;}
+.wrap-mesa{background:url(../img/mesa-bg.jpg) center top no-repeat;width:580px;height:740px;padding:30px;position:relative;}
+.titulo-mesa{background:url(../img/escolha.png) center top no-repeat;width:511px;height:35px;margin:0 auto;}
 .linha{float:left;;margin-top:20px;width:100%;}
 .biscoito{float:left;}
 	.biscoito a{height:90px;width:125px;float:left;background-position:center top;background-repeat:no-repeat;margin-right:16px;}
