@@ -1,0 +1,118 @@
+/*Author: André Tamane – Fiesp – 2015*/
+@charset "UTF-8";
+
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+	list-style:none;
+}
+
+/*GERAL*/
+body{background:url(img/all-bg.jpg) center top no-repeat;}
+.wrap{width:500px;margin:0 auto;}
+.bloco-wrap{}
+.slide-wrap{height:700px;position:relative;}
+.nav-btn,.nav-btn-ant,.nav-btn-prox{opacity:0.5;}
+.nav-btn:hover,.nav-btn-ant:hover,.nav-btn-prox:hover{opacity:1;}
+
+/*CAPA*/
+#capa{text-align:center;}
+	#capa img{margin:25px 0;}
+.deslize{font:italic 14px Georgia, "Lucida Bright", "DejaVu Serif",serif;color:#e7e7e7;text-align:center;}
+	.deslize img{margin:0 0 10px 0 !important;}
+.credito{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:13px;margin-top:390px;}
+
+/*SLIDE 1*/
+#slide1{font-family:'Source Sans Pro', sans-serif;color:#FFF;font-size:14px;padding:15px 0 0 0;height:685px;}
+	#slide1 h1{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:30px;font-weight:800;color:#ccc04f;margin:0 0 20px 0;}
+	#slide1 .nav-btn-ant{text-align:center;display:block;}
+	#slide1 .nav-btn-prox{text-align:center;display:block;margin-top:600px;clear:both;}
+.bloco-esquerdo{float:left;margin:28px 0 0 55px;width:210px;}
+.bloco-direito{float:right;margin:28px 55px 0 0;width:155px;}
+	.bloco-direito strong{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:30px;font-weight:800;color:#8eb2b1;display:block;}
+	.bloco-direito p{margin-bottom:10px;}
+
+/*SLIDE 2*/
+#slide2{padding:15px 0 0 0;height:685px;}
+	#slide2 h1{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;color:#ccc04f;text-align:center;margin:15px 0 28px 0;}
+	#slide2 ul li{float:left;text-align:center;margin:0 20px 15px;}
+	#slide2 ul li img{margin:0 0 10px 0;}
+	#slide2 p{font-family:'Source Sans Pro', sans-serif;color:#FFF;font-size:14px;text-align:center;}
+	#slide2 .legenda{float:left;font-size:12px;margin:0 0 0 20px;}
+	#slide2 .nav-btn-ant{text-align:center;display:block;}
+	#slide2 .nav-btn-prox{text-align:center;display:block;margin-left:117px;float:left;}
+.estilos{font-family:"gotham", Helvetica, Arial, sans-serif !important;font-size:14px !important;font-weight:100 !important;color:#8eb2b1 !important;text-transform:uppercase !important;}
+
+/*SLIDE 3*/
+#slide3{padding:15px 0 0 0;height:685px;}
+	#slide3 h1{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;color:#ccc04f;padding:15px 0 0 0;text-align:center;margin:0 0 28px 0;}
+	#slide3 .nav-btn-ant{text-align:center;display:block;}
+	#slide3 .nav-btn-prox{position:absolute;bottom:15px;width:100%;text-align:center;}
+#cidades-menu{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:24px;font-weight:100;color:#8eb2b1;text-align:center;margin:20px 0 0 0;}
+	#cidades-menu a:link,#cidades-menu a:visited{color:#8eb2b1;margin:0 16px;}
+	#cidades-menu a:hover{color:#e28a38;}
+	.active{color:#e28a38;}
+.lista-cidades-wrap{font-family:'Source Sans Pro', sans-serif;color:#FFF;margin:30px 10px;}
+#capital-list,#grande-sp-list,#interior-list{display:none;}
+.mapa-wrap{text-align:center;position:absolute;bottom:55px;width:100%;}
+#mapa-capital,#mapa-grande-sp,#mapa-interior{display:none;}
+
+/*SLIDE 4*/
+#slide4{padding:15px 0 0 0;height:685px;}
+	#slide4 h1{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;color:#ccc04f;padding:15px 0 0 0;text-align:center;margin:0 0 28px 0;}
+	#slide4 .nav-btn-ant{text-align:center;display:block;}
+	#slide4 .nav-btn-prox{text-align:center;display:block;margin:12px 0 0 0}
+.conteudo{font-family:'Source Sans Pro', sans-serif;color:#FFF;font-weight:300;font-size:20px;margin:0 10px;}
+.abc-wrap{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:22px;font-weight:100;color:#fff;margin:60px 10px;}
+.abc{height:47px;}
+	.abc strong{padding:9px 14px;background:#e28a38;float:left;margin-right:5px;}
+	.abc span{padding:10px 0 0 0;display:block;}
+.a,.c2{margin-left:0;}
+.b,.d{margin-left:47px;}
+.c1,.e{margin-left:94px;}
+.c2 strong,.d strong,.e strong{background:#c14d56;}
+
+/*SLIDE 5*/
+#slide5{padding:15px 0 0 0;height:685px;}
+	#slide5 h1{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;color:#ccc04f;padding:15px 0 0 0;text-align:center;margin:0 0 28px 0;}
+	#slide5 .conteudo{margin:0 10px 10px 10px;}
+	#slide5 .deslize{margin:0 0 10px 0;}
+	#slide5 .nav-btn-ant{text-align:center;display:block;}
+	#slide5 .nav-btn-prox{position:absolute;bottom:15px;width:100%;text-align:center;}
+.etapas-menu{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:18px;font-weight:100;display:inline-block;width:100%;margin-bottom:30px;}
+	.etapas-menu a:link,.etapas-menu a:visited{color:#8eb2b1;width:110px;text-align:center;float:left;margin:0 6px;font-size:18px;letter-spacing:-1px;}
+	.etapas-menu a:hover{color:#ccc04f;}
+.etapas-conteudo-wrap{font-family:'Source Sans Pro', sans-serif;color:#FFF;font-weight:300;font-size:20px;background:url(img/etapas-box-bg.png) repeat;padding:40px;margin:0 10px;}
+	.etapas-conteudo-wrap strong{color:#e28a38;}
+#etapa1,#etapa2,#etapa3,#etapa4{display:none;}
+
+/*SLIDE 6*/
+#slide6{padding:15px 0 0 0;height:685px;}
+	#slide6 h1{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;color:#ccc04f;padding:15px 0 0 0;text-align:center;margin:0 0 28px 0;}
+	#slide6 .nav-btn-ant{text-align:center;display:block;}
+.anos{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;text-align:right;color:#8eb2b1;float:left;width:112px;margin:0 0 0 10px;}
+.conteudo-anos{float:left;font-family:'Source Sans Pro', sans-serif;color:#FFF;font-weight:300;font-size:16px;width:330px;border-left:1px solid #8eb2b1;padding-left:15px;margin-left:15px;}
+#a2008{margin-bottom:180px;}
+#a2009{margin-bottom:115px;}
+#a2011{margin-bottom:120px;}
+#c2008{margin-bottom:100px;}
+#c2009{margin-bottom:100px;}
+#c2011{margin-bottom:100px;}
