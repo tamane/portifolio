@@ -38,7 +38,7 @@ body{background:url(img/all-bg.jpg) center top no-repeat;}
 	#capa img{margin:25px 0;}
 .deslize{font:italic 14px Georgia, "Lucida Bright", "DejaVu Serif",serif;color:#e7e7e7;text-align:center;}
 	.deslize img{margin:0 0 10px 0 !important;}
-.credito{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:13px;margin-top:390px;}
+.credito{font-family:"gotham", Helvetica, Arial, sans-serif;font-size:13px;margin-top:390px;color:#d99d6c;}
 
 /*SLIDE 1*/
 #slide1{font-family:'Source Sans Pro', sans-serif;color:#FFF;font-size:14px;padding:15px 0 0 0;height:685px;}
