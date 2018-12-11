@@ -1,0 +1,91 @@
+body{ font-family: 'Open Sans', sans-serif; background: url(../img/bg-site_01.jpg) center top repeat-x; }
+.bloco { height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+/*** navegação ***/
+#nav { z-index: 5; position: fixed; top: 50%; right: 16px; margin-top: -40px; }
+#nav li {	position: relative;	height: 20px; }
+#nav a { display: block; width: 20px; height: 20px; text-indent: -9999px;	background: transparent url('../img/nav-dot.png') 4px 4px no-repeat; }
+#nav a:hover, #nav a.active { background: transparent url('../img/nav-dot.png') 4px -16px no-repeat; }
+#nav h1 { position: absolute; right: 22px; top: -3px; display: none; padding: 4px 20px 4px 7px;; color: #fff; white-space: nowrap; background: transparent url('../img/nav-arrow.png') 100% 50% no-repeat;	}
+
+/*** MAIN ***/
+#main { margin: 0 auto; position: relative; width: 700px; }
+
+/*** bloco 1 - fiesp ***/
+#fiesp { height: 615px; position: relative; }
+#fiesp img { padding-top:35px; display: block; }
+#fiesp .conteudo { width: 100%; top: 105px; position: absolute; text-align: center; }
+
+#fiesp .numero { position: absolute; top: 350px; z-index: 4; color: #FFF; }
+#fiesp .numero h1 { font-weight: 900; font-size: 55px; line-height: 50px; letter-spacing: -1px; }
+#fiesp .numero p { font-weight: 900; font-style: italic; font-size: 17px; }
+
+#texto { position: absolute; left: 0px; top: 145px; font-size: 16px; color: #FFF; width: 310px; text-align: left; }
+#texto h1 { font-weight: 900; font-size: 18px; color: goldenrod; }
+#texto p { font-weight: lighter; }
+
+#fabrica { background: url(../img/fabrica.png) no-repeat; height: 162px; width: 199px; position: absolute; top: 383px; z-index: 4; }
+#circulo { background: url(../img/circulo.png) no-repeat; height: 162px; width: 162px; position: absolute; top: 320px; z-index: 3; }
+
+/*** bloco 2 - sesi ***/
+#sesi { text-align: center; padding-top: 20px; }
+#sesi.bloco h1 { font-weight: 900; font-size: 50px; line-height: 50px; letter-spacing: -1px; text-align:left; }
+#sesi.bloco p { font-style: italic; font-size: 17px; text-align:left; letter-spacing: -1px; }
+
+#pessoas { background: url(../img/pessoa.png) no-repeat; height: 205px; width: 155px; position: absolute; top: 85px; z-index:2; }
+#alunos { background: url(../img/estudante.png) no-repeat; height: 241px; width: 148px; position: absolute; top: 100px; z-index:2; }
+#escolas-sesi { background: url(../img/escola-sesi.png) no-repeat; height: 228px; width: 286px; position: absolute; top: 100px; z-index:2; }
+#piscinas { background: url(../img/piscina.png) no-repeat; height: 136px; width: 447px; position: absolute; top: 315px; z-index:2; }
+#quadras { background: url(../img/quadra.png) no-repeat; height: 133px; width: 443px; position: absolute; top: 460px; z-index:2; }
+#campos { background: url(../img/campo.png) no-repeat; height: 134px; width: 442px; position: absolute; top: 605px; z-index:2; }
+#atleta { background: url(../img/pista-corrida.png) no-repeat; height: 134px; width: 443px; position: absolute; top: 750px; z-index:2; }
+#refeicoes { background: url(../img/refeicao.png) no-repeat; height: 154px; width: 134px; position: absolute; top: 345px; z-index:2; }
+#teatros { background: url(../img/teatro.png) no-repeat; height: 108px; width: 237px; position: absolute; top: 530px; z-index:2; }
+#eventos { background: url(../img/evento.png) no-repeat; height: 240px; width: 220px; position: absolute; top: 660px; z-index:2; }
+
+.pessoas { position: absolute; top: 120px; z-index:3; width: 193px; }
+.alunos { position: absolute; top: 252px; z-index:3; width: 250px; }
+.escolas-sesi { position: absolute; top: 273px; z-index:3; }
+.piscinas { position: absolute; top: 315px; z-index:3; }
+.quadras { position: absolute; top: 460px; z-index:3; }
+.campos { position: absolute; top: 605px; z-index:3; }
+.atleta { position: absolute; top: 750px; z-index:3; }
+.refeicoes { position: absolute; top: 426px; z-index:3; }
+.teatros { position: absolute; top: 583px; z-index:3; }
+.eventos { position: absolute; top: 828px; z-index:3; width: 283px; }
+.escolas-sesi h1, .escolas-sesi p,
+.piscinas h1, .piscinas p,
+.quadras h1, .quadras p,
+.campos h1, .campos p,
+.atleta h1, .atleta p { display: inline; }
+
+/*** bloco 3 - senai ***/
+#senai { text-align: center; padding-top: 20px; }
+#senai.bloco h1 { font-weight: 900; font-size: 50px; line-height: 50px; letter-spacing: -1px; text-align:left; color: #FFF; }
+#senai.bloco p { font-style: italic; font-size: 17px; text-align:left; letter-spacing: -1px; color: #FFF; }
+
+#matriculas { background: url(../img/matricula-senai.png) no-repeat; height: 207px; width: 280px; position: absolute; top: 132px; z-index:2; }
+#escolas-senai { background: url(../img/escola-senai.png) no-repeat; height: 242px; width: 290px; position: absolute; top: 200px; z-index:2; }
+#unidades-moveis { background: url(../img/unidade-movel.png) no-repeat; height: 293px; width: 354px; position: absolute; top: 418px; z-index:2; }
+#faculdades { background: url(../img/faculdade-senai.png) no-repeat; height: 289px; width: 261px; position: absolute; top: 577px; z-index:2; }
+
+.matriculas { position: absolute; top: 197px; z-index:3; }
+.escolas-senai { position: absolute; top: 380px; z-index:3; }
+.unidades-moveis { position: absolute; top: 640px; z-index:3; }
+.faculdades { position: absolute; top: 805px; z-index:3; }
+.escolas-senai h1, .escolas-senai p,
+.unidades-moveis h1, .unidades-moveis p,
+.faculdades h1, .faculdades p { display: inline; }
+
+/*** rodape ***/
+#rodape { height: 130px; position: relative; }
+#links { text-align: center; height: 56px; padding-top: 18px; width: 100%; }
+#fiesp_link { position: absolute; top: 24px; }
+#sesi_link { position: absolute; top: 24px; }
+#senai_link { position: absolute; top: 24px; }
+img.social { position: absolute; }
+#tw_link { position: absolute; top: 20px; }
+#fb_link { position: absolute; top: 20px; }
+#gp_link { position: absolute; top: 20px; }
+#copyright { padding-top:15px; text-align: center; width: 100%; }
+#copyright p { color: #FFF; font-size: 12px; }
