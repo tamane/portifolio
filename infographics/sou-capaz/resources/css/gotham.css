@@ -3,11 +3,11 @@
 	font-family: 'Gotham';
 	font-style: normal;
   	font-weight: 100;
-	src: url('../resources/fonts/gotham-light.eot');
-	src: url('../resources/fonts/gotham-light.eot?#iefix') format('embedded-opentype'),
-	     url('../resources/fonts/gotham-light.woff') format('woff'),
-	     url('../resources/fonts/gotham-light.ttf')  format('truetype'),
-	     url('../resources/fonts/gotham-light.svg#gotham-light') format('svg'); /* Legacy iOS */
+	src: url('resources/fonts/gotham-light.eot');
+	src: url('resources/fonts/gotham-light.eot?#iefix') format('embedded-opentype'),
+	     url('resources/fonts/gotham-light.woff') format('woff'),
+	     url('resources/fonts/gotham-light.ttf')  format('truetype'),
+	     url('resources/fonts/gotham-light.svg#gotham-light') format('svg'); /* Legacy iOS */
 	}
 
 
@@ -15,11 +15,11 @@
 	font-family: 'Gotham';
 	font-style: normal;
   	font-weight: 300;
-	src: url('../resources/fonts/gotham-medium.eot');
-	src: url('../resources/fonts/gotham-medium.eot?#iefix') format('embedded-opentype'),
-	     url('../resources/fonts/gotham-medium.woff') format('woff'),
-	     url('../resources/fonts/gotham-medium.ttf')  format('truetype'),
-	     url('../resources/fonts/gotham-medium.svg#gotham-medium') format('svg'); /* Legacy iOS */
+	src: url('resources/fonts/gotham-medium.eot');
+	src: url('resources/fonts/gotham-medium.eot?#iefix') format('embedded-opentype'),
+	     url('resources/fonts/gotham-medium.woff') format('woff'),
+	     url('resources/fonts/gotham-medium.ttf')  format('truetype'),
+	     url('resources/fonts/gotham-medium.svg#gotham-medium') format('svg'); /* Legacy iOS */
 	}
 
 	
@@ -27,11 +27,11 @@
 	font-family: 'Gotham';
 	font-style: normal;
   	font-weight: 400;
-	src: url('../resources/fonts/gotham-bold.eot');
-	src: url('../resources/fonts/gotham-bold.eot?#iefix') format('embedded-opentype'),
-	     url('../resources/fonts/gotham-bold.woff') format('woff'),
-	     url('../resources/fonts/gotham-bold.ttf')  format('truetype'),
-	     url('../resources/fonts/gotham-bold.svg#gotham-bold') format('svg'); /* Legacy iOS */
+	src: url('resources/fonts/gotham-bold.eot');
+	src: url('resources/fonts/gotham-bold.eot?#iefix') format('embedded-opentype'),
+	     url('resources/fonts/gotham-bold.woff') format('woff'),
+	     url('resources/fonts/gotham-bold.ttf')  format('truetype'),
+	     url('resources/fonts/gotham-bold.svg#gotham-bold') format('svg'); /* Legacy iOS */
 	}
 
 
@@ -39,9 +39,9 @@
 	font-family: 'Gotham';
 	font-style: normal;
   	font-weight: 600;
-	src: url('../resources/fonts/gotham-black.eot');
-	src: url('../resources/fonts/gotham-black.eot?#iefix') format('embedded-opentype'),
-	     url('../resources/fonts/gotham-black.woff') format('woff'),
-	     url('../resources/fonts/gotham-black.ttf')  format('truetype'),
-	     url('../resources/fonts/gotham-black.svg#gotham-black') format('svg'); /* Legacy iOS */
+	src: url('resources/fonts/gotham-black.eot');
+	src: url('resources/fonts/gotham-black.eot?#iefix') format('embedded-opentype'),
+	     url('resources/fonts/gotham-black.woff') format('woff'),
+	     url('resources/fonts/gotham-black.ttf')  format('truetype'),
+	     url('resources/fonts/gotham-black.svg#gotham-black') format('svg'); /* Legacy iOS */
 	}
