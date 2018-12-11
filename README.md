@@ -1,4 +1,4 @@
-# portifolio
+# Portifolio - Graphic and Web Design
 
 Welcome to my portfolio website.
 
