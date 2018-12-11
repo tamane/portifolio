@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+}
+
+.global-wrap{margin:0 auto;}
+p{font-family:"Source+Sans+Pro", sans-serif;font-size:18px;}
+h1{font-family:"Gotham", Arial, Helvetica, sans-serif;font-size:25px;color:#FFF;font-weight:600;text-transform:uppercase;letter-spacing:-1px;margin-bottom:20px;}
+
+/******* TELA 1 *******/
+#tela1{position:relative;}
+
+.tela1-wrap{background:url(../img/1bg.jpg) top no-repeat;text-align:center;position:relative;}
+	
+.tela1{width:560px;height:700px;margin:0 auto;position:relative;padding:0 40px;}
+	.tela1 p{position:absolute;width:350px;bottom:318px;right:100px;font-size:15px;color:#898989;text-align:left;}
+	.tela1 a.vai{position:absolute;bottom:327px;right:40px;}
+	.tela1 a img{opacity:0.5;}
+	.tela1 a img:hover{opacity:1;}
+	.tela1 p.creditos{position:absolute;width:446px;bottom:160px;right:115px;font-size:11px;color:#fff;text-align:center;}
+
+/******* TELA 2 *******/
+#tela2{position:relative;}
+
+.tela2-wrap{background:url(../img/2bg.jpg) top no-repeat;position:relative;}
+
+.tela2{width:585px;height:660px;padding:40px 0 0 40px;margin:0 auto;}
+	.tela2 a.volta{position:absolute;right:40px;top:40px;opacity:0.5;}
+		.tela2 a.volta:hover{opacity:1;}
+	.tela2 a.vai{position:absolute;right:40px;bottom:40px;opacity:0.5;}
+		.tela2 a.vai:hover{opacity:1;}
+	.tela2 .conteudo{padding:40px 20px 0 0;font-family:"Source+Sans+Pro", sans-serif;font-size:16px;width:260px;float:left;}
+.destaque{font-family:"Gotham", sans-serif;font-size:39px;font-weight:900;text-transform:uppercase;letter-spacing:-1px;display:block;line-height:39px;}
+.azul{color:#0da2ce;}
+.verde{color:#97af0d;}
+.laranja{color:#d69900;}
+.vermelho{color:#c52e0c;}
+
+/******* TELA 3 *******/
+#tela3{position:relative;}
+	
+.tela3-wrap{background:url(../img/3bg.jpg) no-repeat center top;position:relative;}
+
+.tela3{font-family:"Gotham", sans-serif;font-weight:900;letter-spacing:-1px;color:#4d4d4d;text-transform:uppercase;width:585px;height:660px;padding:40px 0 0 40px;margin:0 auto;}
+	.tela3 a.volta{position:absolute;right:0;top:0;opacity:0.5;}
+		.tela3 a.volta:hover{opacity:1;}
+	.tela3 a.vai{position:absolute;right:0;bottom:40px;opacity:0.5;}
+		.tela3 a.vai:hover{opacity:1;}
+
+#tela3bgmap{background:url(../img/3bg-all.png) no-repeat center top;width:560px;height:660px;position:relative;}
+	#tela3bgmap h2{font-size:25px;width:250px;margin:40px 0 0 0;float:left;}
+	#tela3bgmap h3{color:#FFF;padding:21px 0 0 0;margin: 0 auto 5px;width:70px;height:43px;font-size:24px;}
+	#tela3bgmap span{font-size:11px;}
+
+.aracatuba{background-image:url(../img/3bg-aracatuba.png) !important;}
+.bauru{background-image:url(../img/3bg-bauru.png) !important;}
+.campinas{background-image:url(../img/3bg-campinas.png) !important;}
+.grandesp{background-image:url(../img/3bg-grandesp.png) !important;}
+.jundiai{background-image:url(../img/3bg-jundiai.png) !important;}
+.marilia{background-image:url(../img/3bg-marilia.png) !important;}
+.matao{background-image:url(../img/3bg-matao.png) !important;}
+.piracicaba{background-image:url(../img/3bg-piracicaba.png) !important;}
+.ribeiraopreto{background-image:url(../img/3bg-ribeiraopreto.png) !important;}
+.saobernardo{background-image:url(../img/3bg-saobernardo.png) !important;}
+.saojose{background-image:url(../img/3bg-saojose.png) !important;}
+.sorocaba{background-image:url(../img/3bg-sorocaba.png) !important;}
+.tatui{background-image:url(../img/3bg-tatui.png) !important;}
+.cidade{position:absolute;text-align:center;}
+	.cidade:hover{cursor:pointer;}
+#matao{left:285px;top:140px;}
+	#matao h3{background-color:#f8af00;}
+#bauru{left:368px;top:117px;}
+	#bauru h3{background-color:#E5A300;}
+#ribeiraopreto{left:473px;top:142px;}
+	#ribeiraopreto h3{background-color:#c52e0c;}
+#piracicaba{left:402px;top:244px;}
+	#piracicaba h3{background-color:#f8af00;}
+#campinas{left:498px;top:269px;}
+	#campinas h3{background-color:#E5A300;}
+#jundiai{left:479px;top:366px;}
+	#jundiai h3{background-color:#a2bb0c;}
+#grandesp{left:382px;top:418px;}
+	#grandesp h3{background-color:#97af0d;}
+#saobernardo{left:477px;top:468px;}
+	#saobernardo h3{background-color:#d3300f;}
+#saojose{left:377px;top:516px;}
+	#saojose h3{background-color:#e53212;}
+#sorocaba{left:282px;top:470px;}
+	#sorocaba h3{background-color:#a2bb0c;}
+#tatui{left:188px;top:451px;}
+	#tatui h3{background-color:#aec90b;}
+#marilia{left:112px;top:384px;}
+	#marilia h3{background-color:#aec90b;}
+#aracatuba{left:0;top:329px;}
+	#aracatuba h3{background-color:#eb6338;}
+
+/******* TELA 4 *******/	
+#tela4{position:relative;}
+
+.tela4-wrap{background:url(../img/4bg.jpg) no-repeat center top;position:relative;}
+
+.tela4{padding:40px 0 0 40px;width:585px;height:660px;font-family:"Gotham", sans-serif;font-weight:900;letter-spacing:-1px;color:#4d4d4d;text-transform:uppercase;margin:0 auto;position:relative;}
+	.tela4 h2{font-size:25px;margin:40px 0 20px;display:block;}
+	.tela4 h3{font-size:25px;margin:0 20px 0 0;float:left;}
+	.tela4 table{color:#FFF;font-weight:400;font-size:14px;}
+		.tela4 table tr{}
+			.tela4 table tr td{padding:7px 14px;}
+				.tela4 table tr td a{display:inline-block;}
+				.tela4 table tr td a:hover{cursor:pointer;}
+	.tela4 a.volta{position:absolute;right:40px;top:40px;opacity:0.5;}
+		.tela4 a.volta:hover{opacity:1;}
+	.tela4 a.vai{position:absolute;right:40px;bottom:40px;opacity:0.5;}
+		.tela4 a.vai:hover{opacity:1;}
+
+.marco{background:#97af0d;}
+.abril{background:#d69900;}
+.maio{background:#c52e0c;}
+.agosto{background:#0da2ce;}
+.setembro{background:#aec90b;}
+.outubro{background:#e5a300;}
+.nada{visibility:hidden;}
+	
+#modal{width:100%;height:100%;background:url(../img/modal-bg.png) repeat;overflow:auto;position:fixed;top:0;left:0;z-index:200;display:none;}
+	#modal #bt_fechar_modal{width:90px;height:90px;display:block;background:url(../img/bt_fechar.png) no-repeat;text-indent:-9999px;position:fixed;top:20px;right:20px;}
+#modal_container{width:1000px;height:500px;position:absolute;top:50%;left:50%;margin-top:-250px;margin-left:-500px;}
+
+#youtube_saopaulo{display:none;text-align:center;}
+#youtube_jundiai{display:none;text-align:center;}
+
+/******* TELA 5 *******/
+#tela5{position:relative;}
+.tela5-wrap{background:url(../img/5bg.jpg) no-repeat center top;position:relative;}
+
+.tela5{padding:40px 0 0 40px;width:585px;height:660px;font-family:"Gotham", sans-serif;font-weight:900;letter-spacing:-1px;color:#4d4d4d;text-transform:uppercase;margin:0 auto;}
+	.tela5 h1{font-size:25px;margin:0 0 20px;display:block;}
+	.tela5 .conteudo{padding:40px 0 0 0;font-family:"Source+Sans+Pro", sans-serif;font-size:16px;width:497px;float:left;text-transform:none;line-height:28px;}
+	.tela5 .destaque{margin:15px 0;display:inline;}
+	.tela5 a.download{background:#97af0d;color:#FFF;text-transform:uppercase;font-size:18px;font-family:"Gotham";padding:13px 26px;margin:70px 30px 0;display:inline-block;}
+		.tela5 a.download:hover{background:#c2d350;}
+	.tela5 a.download img{float:left;margin-right:10px;}
+	.tela5 a.download span{float:left;margin:6px 0;}
+	
+	.tela5 a.volta{position:absolute;right:40px;top:40px;opacity:0.5;}
+		.tela5 a.volta:hover{opacity:1;}
+	.tela5 a.vai{position:absolute;right:40px;bottom:40px;opacity:0.5;}
+		.tela5 a.vai:hover{opacity:1;}
+
+	
+/******* TELA 6 *******/
+#tela6{position:relative;}
+
+.tela6{padding:40px 0 0 40px;width:585px;height:660px;font-family:"Gotham", sans-serif;font-weight:900;letter-spacing:-1px;color:#4d4d4d;text-transform:uppercase;margin:0 auto;position:relative;}
+	.tela6 h1{font-size:25px;margin:0 0 20px;display:block;}
+	.tela6 p{font-weight:100;text-transform:none;clear:both;margin-top:40px;width:560px;}
+	.tela6 h2{font-size:31px;margin:0 0 10px;display:inline-block;}
+	.tela6 h2.meio{border-left:1px solid red;border-right:1px solid red;margin:0 10px;padding:0 10px;}
+	.tela6 table tr td{padding:16px;font-weight:100;font-size:14px;text-transform:none;text-align:center;vertical-align:middle;}
+	.tela6 a.volta{position:absolute;right:40px;top:40px;opacity:0.5;}
+		.tela6 a.volta:hover{opacity:1;}
+	.tela6 a.vai{position:absolute;right:40px;bottom:10px;opacity:0.5;}
+		.tela6 a.vai:hover{opacity:1;}
+
+.tela6-wrap{background:url(../img/6bg.jpg) no-repeat center top;position:relative;}
+
+.tela6p{margin-top:10px !important; margin-bottom:10px;}	
+.cel-azul{background:#0da2ce;color:#FFF;}
+.cel-verde{background:#d6e18f;}
+.cel-amarelo{background:#fdd486;}
+.cel-laranja{background:#f29772;}
+.cel-anil{background:#a6dbf7;}
+.cel-azul2{background:#0aaddc;color:#FFF;}
+.cel-verde2{background:#ecf1cf;}
+.cel-amarelo2{background:#ffeac9;}
+.cel-laranja2{background:#fad2be;}
+.cel-anil2{background:#d8eefc;}
+
+.setores{text-align:center;text-transform:none;font-size:18px;color:#FFF;width:560px;font-weight:600;position:relative;}
+	.setores ul{list-style-type:none;}
+		.setores ul li{float:left;width:80px;height:60px;padding:20px 0 0 0;}
+			.setores ul li:hover{cursor:pointer;}
+		.setores ul li img{display:block;margin:0 auto 18px;}
+.setorLi span{display:none;}
+.setor-bg-hover{background:url(../img/setor-bg.png) repeat !important;}
+.alimentos{background:#d3300f;}
+.maquinas{background:#e5a300;}
+.farmaceuticos{background:#a2bb0c;}
+.metalurgia{background:#0aaddc;}
+.automotivo{background:#e53212;}
+.couro{background:#e5a300;}
+.bebidas{background:#a2bb0c;}
+
+.tag{position:absolute;height:50px;display:none;width:480px;padding:30px 0 0 0;}
+#alimentosTag{right:0;background:#eb6338;}
+#maquinasTag{right:0;background:#fbbf43;width:400px;}
+#farmaceuticosTag{right:0;background:#c2d350;width:320px;}
+#metalurgiaTag{left:0;background:#6dc8f2;width:240px;}
+#automotivoTag{left:0;background:#eb6338;width:320px;}
+#couroTag{left:0;background:#fbbf43;width:400px;}
+#bebidasTag{left:0;background:#c2d350;}
+
+/******* TELA 7 *******/
+#tela7{position:relative;}
+.tela7{padding:40px 0 0 40px;width:585px;height:660px;font-family:"Gotham", sans-serif;font-weight:900;letter-spacing:-1px;color:#4d4d4d;text-transform:uppercase;margin:0 auto;position:relative;}
+	.tela7 h1{font-size:25px;margin:0 0 20px;display:block;}
+	.tela7 a.volta{position:absolute;right:40px;top:40px;opacity:0.5;}
+		.tela7 a.volta:hover{opacity:1;}
+	.tela7 a.vai{position:absolute;right:40px;bottom:0px;opacity:0.5;}
+		.tela7 a.vai:hover{opacity:1;}
+
+
+.tela7-wrap{background:url(../img/7bg.jpg) no-repeat center top;position:relative;}
+
+.depoimentos-wrap{width:560px;text-transform:none;font-weight:normal;}
+.name-title{float:left;width:560px;}
+	.name-title span{padding:9px 20px;color:#FFF;font-size:18px;float:left;}
+.balao-btn{float:right;background:url(../img/balao-ico2.png) center no-repeat;width:40px;height:40px;}
+	.balao-btn:hover{cursor:pointer;}
+.foto-depoimento-wrap{float:left;display:none;}
+	.foto-depoimento-wrap a:link,.foto-depoimento-wrap a:visited{border:1px solid #FFF;color:#FFF;padding:10px;margin:30px;font-size:14px;}
+	.foto-depoimento-wrap a:hover{border:1px solid #FFF;color:#666;padding:10px;margin:30px;background:#FFF}
+.foto-depoimento{float:left;}
+	.foto-depoimento img{float:left;}
+.aspas{float:right;width:220px;padding:30px;font-weight:100;font-size:16px;}
+
+.elaine{background:#d6e18f;float:left;}
+	.elaine .name-title{background:#97af0d;}
+	.elaine .balao-btn{background-color:#aec90b;}
+	.elaine .aspas{font-size:18px;}
+
+.nanci{background:#a6dbf7;;float:left;}
+	.nanci .name-title{background:#0da2ce;}
+	.nanci .balao-btn{background-color:#04baee;}
+	.nanci .aspas{font-size:18px;}
+
+.moacir{background:#d6e18f;float:left;}
+	.moacir .name-title{background:#97af0d;}
+	.moacir .balao-btn{background-color:#aec90b;}
+
+.vandermir{background:#fdd486;float:left;}
+	.vandermir .name-title{background:#d69900;}
+	.vandermir .balao-btn{background-color:#f8af00;}
+	.vandemir .aspas{font-size:18px;}
+
+.jose{background:#a6dbf7;float:left;}
+	.jose .name-title{background:#0da2ce;}
+	.jose .balao-btn{background-color:#04baee;}
+	.jose .aspas{font-size:18px;}
+	#jose{display:block;}
+
+.antonio{background:#f29772;float:left;}
+	.antonio .name-title{background:#c52e0c;}
+	.antonio .balao-btn{background-color:#e53212;}
+	.antonio .aspas{font-size:18px;}
