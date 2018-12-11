@@ -1,0 +1,130 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Os impactos para a indústria sobre um possível racionamento de água</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Lato:900' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="jquery/waypoints.min.js"></script>
+<script src="jquery/Chart.js"></script>
+<script src="jquery/Chart.Doughnut.js"></script>
+<script src="jquery/graficos.js"></script>
+</head>
+
+<body>
+	<div class="wrap">
+		<!--SLIDE 1-->
+		<div class="slide1" id="one">
+			<div class="conteudo1">
+				<img src="img/gota.png" width="70" height="70" alt="gota"/>
+				<h1>os impactos para a indústria sobre um possível racionamento de água</h1>
+				<p>Conheça os números do levantamento realizado pela Federação das Indústrias do Estado de São Paulo (Fiesp) 
+				e pelo Centro das Indústrias do Estado de São Paulo (Ciesp)</p>
+			</div>
+			<div class="next_btn"><a href="#two"><img src="img/nextbtn.png" width="88" height="30" alt="Próximo"/></a></div>
+		</div>
+		
+		<!--SLIDE 2-->
+		<div class="slide2" id="two">
+			<div class="prev_btn"><a href="#one"><img src="img/prevbtn.png" width="88" height="30" alt="Anterior"/></a></div>
+			<div class="conteudo2">
+				<h1>413 Indústrias entrevistadas no Estado de São Paulo</h1>
+				<div class="grafico-wrap1">
+					<div id="canvas-holder">
+						<canvas id="chart-area" width="230" height="230"/>					
+					</div>
+					<div class="valor grandeporte44"><h3>44</h3>de grande porte</div>
+					<div class="valor medioporte140"><h3>140</h3>de médio porte</div>
+					<div class="valor mpporte229"><h3>229</h3>de micro<br>e pequeno porte</div>
+					<div class="sp_icon"><img src="img/sp-icon.png" width="70" height="70" alt="Estado de São Paulo"/></div>
+				</div>
+			</div>
+			<div class="next_btn"><a href="#three"><img src="img/nextbtn.png" width="88" height="30" alt="Próximo"/></a></div>
+		</div>
+		
+		<!--SLIDE 3-->
+		<div class="slide3" id="three">
+			<div class="prev_btn"><a href="#two"><img src="img/prevbtn.png" width="88" height="30" alt="Anterior"/></a></div>
+			<div class="conteudo3">
+				<div class="grafico-wrap2">
+					<div id="canvas-holder2">
+						<canvas id="chart-area2" width="170" height="170"/>					
+					</div>
+					<div class="valor acreditam64"><h3>64,9%</h3>acreditam que um eventual racionamento de água causaria impacto negativo no faturamento.</div>
+				</div>
+				<div class="grafico-wrap3">
+					<div id="canvas-holder3">
+						<canvas id="chart-area3" width="170" height="170"/>					
+					</div>
+					<div class="valor empresas67"><h3>67,6%</h3>das empresas se dizem preocupadas com uma possível economia do recurso.</div>
+				</div>
+				<div class="money_icon"><img src="img/money_icon.png" width="40" height="40" alt="faturamento"/></div>
+				<div class="alert_icon"><img src="img/alert_icon.png" width="40" height="40" alt="alerta"/></div>
+			</div>
+			<div class="next_btn"><a href="#four"><img src="img/nextbtn.png" width="88" height="30" alt="Próximo"/></a></div>
+		</div>
+		
+		<!--SLIDE 4-->
+		<div class="slide4" id="four">
+			<div class="prev_btn"><a href="#three"><img src="img/prevbtn.png" width="88" height="30" alt="Anterior"/></a></div>
+			<div class="conteudo4">
+				<h1>Das indústrias ouvidas:</h1>				
+				<div class="barra">
+					<div id="p62" class="barra_cheia"><h2>62,2%</h2></div>
+				</div>
+				<div class="label">indicaram que a produção pode ser prejudicada, mas não precisa ser interrompida em caso de racionamento.</div>
+				<div class="barra">
+					<div id="p11" class="barra_cheia"><h2>11,9%</h2></div>
+				</div>
+				<div class="label">sinalizaram que a produção é paralisada apenas no momento da interrupção e retomada em seguida.</div>
+				<div class="barra">
+					<div id="p12" class="barra_cheia"><h2>12,1%</h2></div>
+				</div>
+				<div class="label">afirmaram que a produção não seria afetada.</div>
+			</div>
+			<div class="next_btn"><a href="#five"><img src="img/nextbtn.png" width="88" height="30" alt="Próximo"/></a></div>
+		</div>
+		
+		<!--SLIDE 5-->
+		<div class="slide5" id="five">
+			<div class="prev_btn"><a href="#four"><img src="img/prevbtn.png" width="88" height="30" alt="Anterior"/></a></div>
+			<div class="conteudo5">
+				<div class="grafico-wrap5">
+					<div id="canvas-holder4">
+						<canvas id="chart-area4" width="150" height="150"/>					
+					</div>
+					<div class="label">Para <strong>2,2%</strong> das empresas, um eventual racionamento acarreta em grandes perdas, pois todo material momentaneamente processado seria perdido.</div>
+					<div class="lixo_icon"><img src="img/lixo-icon.png" width="40" height="40" alt="Perdas"/></div>
+				</div>
+				<div class="grafico-wrap6">
+					<h1>Das empresas entrevistadas:</h1>
+					<div id="canvas-holder5">
+						<canvas id="chart-area5" width="150" height="150"/>					
+					</div>
+					<div id="canvas-holder6">
+						<canvas id="chart-area6" width="150" height="150"/>					
+					</div>
+					<div id="canvas-holder7">
+						<canvas id="chart-area7" width="150" height="150"/>					
+					</div>
+					<div class="label um_terco esq">não possuem uma fonte alternativa de água.</div>
+					<div class="label um_terco meio">possuem fonte alternativa de água e são capazes de manter a produção durante eventuais interrupções.</div>
+					<div class="label um_terco dir">não dependem do sistema de abastecimento.</div>
+					<div class="valor p54"><h3>54,5%</h3></div>
+					<div class="valor p21"><h3>21,8%</h3></div>
+					<div class="valor p20"><h3>20,8%</h3></div>
+				</div>
+			</div>
+			<div class="asterisco">Pesquisa feita pelo Departamento de Pesquisas e Estudos Econômicos (Depecon) para o Departamento de Meio Ambiente (DMA)</div>
+			<div class="credito"><strong>Arte:</strong> André Tamane | <strong>Conteúdo:</strong> Fernanda Barreira | <strong>Edição:</strong> Juan Saavedra</div>				
+		</div>
+	</div>
+<script>
+$('#two').waypoint(function() {two();});
+$('#three').waypoint(function() {three();});
+$('#four').waypoint(function() {four();});
+$('#five').waypoint(function() {five();});
+</script>
+</body>
+</html>

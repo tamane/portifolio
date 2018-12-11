@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+.wrap{margin:0 auto;width:640px;color:#FFF;}
+h1{font-family: 'Lato', sans-serif;font-weight:900;text-transform:uppercase;}
+p{font-family: 'Source Sans Pro', sans-serif;}
+.slide1{width:640px;height:640px;float:left;background:url(img/bg-01.jpg) center top no-repeat;}
+.slide2{width:640px;height:640px;float:left;background:url(img/bg-02.jpg) center top no-repeat;}
+.slide3{width:640px;height:640px;float:left;background:url(img/bg-03.jpg) center top no-repeat;}
+.slide4{width:640px;height:640px;float:left;background:url(img/bg-04.jpg) center top no-repeat;}
+.slide5{width:640px;height:640px;float:left;background:url(img/bg-05.jpg) center top no-repeat;}
+.conteudo1{width:404px;height:404px;margin:70px 0 0 70px;text-align:center;padding:96px 48px 0;position:relative;}
+	.conteudo1 h1{font-size:24px;line-height:34px;margin:24px 0;}
+	.conteudo1 p{font-size:18px;color:#E6E6E6;}
+.next_btn{text-align:center;float:left;width:100%;margin-top:40px;}
+.prev_btn{text-align:center;float:left;width:100%;}
+.conteudo2{height:515px;margin:55px 70px 0;}
+	.conteudo2 h1{font-size:24px;line-height:34px;background:#064693;padding:30px;width:440px;}
+.conteudo3{height:501px;margin:69px 70px 0;position:relative;}
+	.conteudo3 h1{font-size:24px;line-height:34px;background:#064693;padding:30px;width:440px;}
+.conteudo4{height:466px;margin:69px 70px 0;position:relative;padding:35px 25px 0;}
+	.conteudo4 h1{font-size:24px;margin-bottom:20px;}
+.conteudo5{height:483px;margin:30px 30px 0;position:relative;padding:35px 25px 0;}
+	.conteudo5 h1{font-size:18px;margin-bottom:10px;}
+
+.grafico-wrap1{position:relative;}
+.grafico-wrap2{position:relative;}
+.grafico-wrap3{}
+.grafico-wrap4{position:relative;}
+.grafico-wrap5{float:left;margin-bottom:15px;}
+.grafico-wrap5 .label{float:left;width:355px;margin:40px 0 0 0;}
+.grafico-wrap6{float:left;width:525px;}
+
+.valor{position:absolute;font-family: 'Source Sans Pro', sans-serif;}
+ .valor h3{font-family: 'Lato', sans-serif;font-weight:900;font-size:28px;}
+
+.grandeporte44{top:20px;left:100px;}
+.medioporte140{top:150px;left:25px;}
+.mpporte229{top:235px;right:30px;}
+.acreditam64{width:230px;top:100px;right:50px;}
+	.acreditam64 h3,.empresas67 h3{font-size:42px;}
+.empresas67{width:230px;top:325px;right:50px;}
+
+.sp_icon{width:70px;height:70px;position:absolute;top:152px;left:215px;}
+.money_icon{width:40px;height:40px;position:absolute;top:105px;left:105px;}
+.alert_icon{width:40px;height:40px;position:absolute;top:320px;left:105px;}
+.lixo_icon{width:40px;height:40px;position:absolute;top:90px;left:79px;}
+
+#canvas-holder{width:230px;float:left;margin:70px 135px;}
+#canvas-holder2{width:171px;float:left;margin:40px 38px;}
+#canvas-holder3{width:171px;float:none;margin:40px 38px;}
+#canvas-holder4{width:150px;float:left;margin-right:15px;}
+#canvas-holder5{width:150px;float:left;margin-right:37px;}
+#canvas-holder6{width:150px;float:left;margin-right:37px;}
+#canvas-holder7{width:150px;float:left;}
+
+.barra{width:446px;height:50px;background:#4d4d4d;display:inline-block;position:relative;}
+	.barra h2{position:absolute;font-family: 'Lato', sans-serif;font-weight:900;font-size:28px;top:7px;left:15px;}
+.label{display:inline-block;margin-bottom:20px;font-family: 'Source Sans Pro', sans-serif;}
+.um_terco{width:140px;float:left;margin:10px 0 0 0;}
+.esq{float:left;padding-left:10px;letter-spacing:-1px;}
+.meio{float:left;margin-left:45px;letter-spacing:-1px;}
+.dir{float:right;letter-spacing:-1px;}
+#p62{width:62%;height:50px;background:#4b9dff;display:none;}
+#p11{width:11%;height:50px;background:#4b9dff;display:none;}
+#p12{width:12%;height:50px;background:#4b9dff;display:none;}
+.p54{bottom:190px;left:61px}
+.p21{bottom:190px;left:247px}
+.p20{bottom:190px;right:66px}
+
+.asterisco{font-family: 'Source Sans Pro', sans-serif;float:left;font-size:12px;margin:0 30px;width:520px;padding:10px 30px;color:#F5F5F5;}
+.credito{font-family: 'Source Sans Pro', sans-serif;float:left;font-size:11px;margin:0 30px;width:520px;padding:10px 30px;background-color:#aaa;color:#272727}
