@@ -1,0 +1,131 @@
+/*****RESET*****/
+*{
+margin:0;
+padding:0;
+list-style:none;
+vertical-align:baseline;
+}
+
+body{font-family: 'Source Sans Pro', sans-serif;}
+h1{font-family: 'Montserrat', sans-serif;}
+h2{font-family: 'Montserrat', sans-serif;font-weight:400;text-transform:uppercase;color:#FFF;font-size:24px;}
+.legenda{font-family: 'Montserrat', sans-serif;font-weight:400;text-transform:uppercase;color:#FFF;font-size:14px;display:none;}
+
+.wrap{width:640px;}
+.slide{height:700px;position:relative;}
+a.anterior:link{background:url(img/seta-slides.png) left top no-repeat;width:30px;height:30px;position:absolute;top:10px;left:305px;}
+a.anterior:hover{background:url(img/seta-slides.png) left bottom no-repeat;}
+a.proximo:link{background:url(img/seta-slides.png) right top no-repeat;width:30px;height:30px;position:absolute;bottom:10px;left:305px;}
+a.proximo:hover{background:url(img/seta-slides.png) right bottom no-repeat;}
+
+.chart{float:left;margin:0 0 20px 0;}
+.percent{position:absolute;font-weight:700;font-size:48px;color:#6eb52c;text-align:center;}
+
+/*****CAPA*****/
+#capa{background:url(img/capa-bg.jpg) center top no-repeat;}
+	#capa a:link{width:48px;height:48px;background:url(img/seta-home.png) center top no-repeat;position:absolute;bottom:167px;left:297px;}
+	#capa a:hover{background:url(img/seta-home.png) center bottom no-repeat;}
+.creditos{font-size:12px;font-weight:300;color:#fff;position:absolute;bottom:18px;left:146px;}
+
+/*****SLIDE 1*****/
+#slide1{background:url(img/slide1-bg.jpg) center top no-repeat;}
+	#slide1 h1{color:#FFF;float:left;width:119px;height:132px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:20px;}
+	#slide1 p{color:#FFF;float:left;width:381px;height:132px;font-size:18px;font-weight:300;margin:60px 0 0 0;padding:20px;}
+#graficoS1{width:294px;height:122px;background:url(img/slide1-linha.png) center top no-repeat;margin:120px 0 0 178px;float:left;position:relative;display:none;}
+	#graficoS1 span{position:absolute;font-family: 'Montserrat';color:#ff0000;font-weight:700;font-size:14px;bottom:37px;left:97px;}
+	
+/*****SLIDE 2*****/
+#slide2{background:url(img/slide1-bg.jpg) center top no-repeat;}
+	#slide2 h1{color:#FFF;float:left;width:119px;height:60px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:20px;}
+	#slide2 p{color:#FFF;float:left;width:381px;height:132px;font-size:18px;font-weight:300;margin:60px 0 0 0;padding:20px;}
+#graficoS2{width:294px;height:92px;background:url(img/slide2-linha.png) center top no-repeat;margin:120px 0 0 178px;float:left;position:relative;display:none;}
+	#graficoS2 span{position:absolute;font-family: 'Montserrat';color:#ff0000;font-weight:700;font-size:14px;bottom:18px;left:97px;}
+	
+/*****SLIDE 3*****/
+#slide3{background:url(img/slide1-bg.jpg) center top no-repeat;}
+	#slide3 h1{color:#FFF;float:left;width:119px;height:60px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:20px;}
+	#slide3 p{color:#FFF;float:left;width:381px;height:132px;font-size:18px;font-weight:300;margin:60px 0 0 0;padding:20px;}
+#graficoS3{width:295px;height:177px;background:url(img/slide3-linha.png) center top no-repeat;margin:95px 0 0 178px;float:left;position:relative;display:none;}
+	#graficoS3 span{position:absolute;font-family: 'Montserrat';color:#ff0000;font-weight:700;font-size:14px;bottom:60px;left:97px;}
+
+/*****SLIDE 4*****/
+#slide4{background:url(img/slide4-bg.jpg) center top no-repeat;}
+	#slide4 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:19px;}
+	#slide4 p{color:#FFF;float:left;height:97px;width:540px;font-size:18px;font-weight:300;margin:0 0 0 30px;padding:20px;}
+#graficoS4{float:left;width:540px;height:321px;margin:15px 0 0 30px;padding:20px;}
+	#graficoS4 h2{margin:0 0 20px 0;font-weight:400;}
+	
+.graficoS4-1tri-wrap{float:left;position:relative;width:215px;text-align:center;margin:0 20px;}
+	.graficoS4-1tri-wrap .percent{left:63px;top:78px;}
+.graficoS4-2tri-wrap{float:right;position:relative;width:215px;text-align:center;margin:0 20px;}
+	.graficoS4-2tri-wrap .percent{left:63px;top:78px;}
+
+/*****SLIDE 5*****/
+#slide5{background:url(img/slide5-bg.jpg) center top no-repeat;}
+	#slide5 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:19px;}
+	#slide5 p{color:#FFF;float:left;height:97px;width:540px;font-size:18px;font-weight:300;margin:0 0 0 30px;padding:20px;}
+#graficoS5{float:left;width:540px;height:321px;margin:15px 0 0 30px;padding:20px;}
+	#graficoS5 h2{margin:0 0 20px 0;font-weight:400;}
+	
+.graficoS5-left-wrap{float:left;position:relative;width:215px;text-align:center;margin:0 0 0 10px;}
+.graficoS5-right-wrap{float:right;position:relative;width:170px;text-align:center;margin:0 20px 0 0;}
+#graficoS5-left .percent{left:63px;top:78px;}
+#graficoS5-right .percent{left:45px;top:53px;color:#ffff00;}
+
+/*****SLIDE 6*****/
+#slide6{background:url(img/slide6-bg.jpg) center top no-repeat;}
+	#slide6 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:19px;}
+	#slide6 p{color:#FFF;float:left;height:97px;width:540px;font-size:18px;font-weight:300;margin:0 0 0 30px;padding:20px;}
+#graficoS6{float:left;width:540px;height:321px;margin:15px 0 0 30px;padding:20px;}
+	#graficoS6 h2{margin:0 0 20px 0;font-weight:400;}
+
+.graficoS6-left-wrap{float:left;position:relative;width:220px;text-align:center;margin:0 0 0 10px;}
+.graficoS6-right-wrap{float:right;position:relative;width:170px;text-align:center;margin:0 20px 0 0;}
+#graficoS6-left .percent{left:63px;top:78px;}
+#graficoS6-right .percent{left:45px;top:53px;color:#ffff00;}
+
+/*****SLIDE 7*****/
+#slide7{background:url(img/slide7-bg.jpg) center top no-repeat;}
+	#slide7 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:19px;}
+	#slide7 p{color:#FFF;float:left;height:97px;width:540px;font-size:18px;font-weight:300;margin:0 0 0 30px;padding:20px;}
+#graficoS7{float:left;width:540px;height:321px;margin:15px 0 0 30px;padding:20px;}
+	#graficoS7 h2{margin:0 0 20px 0;font-weight:400;}
+
+.graficoS7-left-wrap{float:left;position:relative;width:220px;text-align:center;margin:0 0 0 10px;}
+.graficoS7-right-wrap{float:right;position:relative;width:170px;text-align:center;margin:0 20px 0 0;}
+#graficoS7-left .percent{left:63px;top:78px;}
+#graficoS7-right .percent{left:45px;top:53px;color:#ffff00;}
+	
+/*****SLIDE 8*****/
+#slide8{background:url(img/slide8-bg.jpg) center top no-repeat;}
+	#slide8 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:19px;}
+	#slide8 p{color:#FFF;float:left;height:97px;width:540px;font-size:18px;font-weight:300;margin:0 0 0 30px;padding:20px;}
+#graficoS8{float:left;width:540px;height:321px;margin:15px 0 0 30px;padding:20px;}
+	#graficoS8 h2{margin:0 0 20px 0;font-weight:400;}
+
+.graficoS8-left-wrap{float:left;position:relative;width:220px;text-align:center;margin:0 0 0 10px;}
+.graficoS8-right-wrap{float:right;position:relative;width:170px;text-align:center;margin:0 20px 0 0;}
+#graficoS8-left .percent{left:63px;top:78px;}
+#graficoS8-right .percent{left:45px;top:53px;color:#ffff00;}
+
+
+/*****SLIDE 9*****/
+#slide9{background:url(img/slide9-bg.jpg) center top no-repeat;}
+	#slide9 h1{color:#FFF;float:left;width:148px;height:73px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:20px;}
+	#slide9 p{color:#FFF;float:left;width:353px;height:74px;font-size:18px;font-weight:300;margin:60px 0 0 0;padding:20px;}
+
+/*****SLIDE 10*****/
+#slide10{background:url(img/slide10-bg.jpg) center top no-repeat;}
+	#slide10 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:60px 0 0 30px;padding:19px;}
+#graficoS10-wrap{float:left;width:540px;margin:30px 0 0 30px;padding:20px;}
+	#graficoS10-wrap p{color:#FFF;float:right;width:275px;font-size:18px;font-weight:300;margin:35px 0 0 0;padding:20px;}
+#graficoS10{position:relative;}
+	#graficoS10 .percent{left:63px;top:78px;}
+
+/*****SLIDE 11*****/
+#slide11{background:url(img/slide11-bg.jpg) center top no-repeat;}
+	#slide11 h1{color:#FFF;float:left;width:542px;font-size:24px;font-weight:700;margin:280px 0 0 30px;padding:19px;}
+#graficoS11-wrap{float:left;width:540px;margin:15px 0 0 30px;padding:20px;}
+	#graficoS11-wrap p{color:#FFF;float:right;width:275px;font-size:18px;font-weight:300;margin:35px 0 0 0;padding:20px;}
+#graficoS11{position:relative;}
+	#graficoS11 .percent{left:63px;top:78px;}

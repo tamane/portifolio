@@ -1,0 +1,206 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Infográfico ICAGRO</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<script src="js/icagro-info.js"></script>
+</head>
+
+<body>
+	<div class="wrap">
+		<!--SLIDE CAPA-->
+		<div id="capa" class="slide">
+			<a href="#slide1"></a>
+			<span class="creditos">Conteúdo: Alice Assunção | Edição: Juan Saavedra | Arte: André Tamane</span>
+		</div>
+		
+		<!--SLIDE 1-->
+		<div id="slide1" class="slide">
+			<a href="#capa" class="anterior"></a>
+			<h1>Nível de confiança</h1>
+			<p><strong>91,8 pontos</strong> é o nível de confiança do setor, uma queda de <strong>10,9 pontos</strong> em relação ao dado verificado no primeiro trimestre deste ano, 
+			quando o levantamento apurou uma leitura de <strong>102,7 pontos</strong>.</p>
+			<div id="graficoS1"><span>-10,9</span></div>
+			<a href="#slide2" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 2-->
+		<div id="slide2" class="slide">
+			<a href="#slide1" class="anterior"></a>
+			<h1>Nível de confiança<br />
+			<small>antes da porteira</small></h1>
+			<p><strong>94,1 pontos</strong> é o índice de confiança entre as indústrias antes da porteira 
+			(indústria de fertilizantes, máquinas e implementos, defensivos, nutrição e saúde animal, cooperativas, revendas, entre outros), 
+			ante <strong>101,9 pontos</strong> no primeiro trimestre do ano.</p>
+			<div id="graficoS2"><span>-7,8</span></div>
+			<a href="#slide3" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 3-->
+		<div id="slide3" class="slide">
+			<a href="#slide2" class="anterior"></a>
+			<h1>Nível de confiança<br />
+			<small>depois da porteira</small></h1>
+			<p><strong>88,9 pontos</strong> é o índice de confiança entre as indústrias depois da porteira 
+			(indústria de alimentos, de energia, tradings, cooperativas, armazenadores e operadores logísticos),  com baixa de <strong>19,8 pontos</strong>.</p>
+			<div id="graficoS3"><span>-19,8</span></div>
+			<a href="#slide4" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 4-->
+		<div id="slide4" class="slide">
+			<a href="#slide3" class="anterior"></a>
+			<h1>Intenção de investimento</h1>
+			<p><strong>Preocupações atuais</strong><br />
+			<strong>50%</strong> dos produtores agropecuários afirmaram que sua maior preocupação é com o clima. 
+			No trimestre anterior, esse percentual chegou a <strong>82%</strong>.</p>
+			
+			<div id="graficoS4">
+				<h2>Clima</h2>
+				<div class="graficoS4-1tri-wrap">
+					<div id="graficoS4-1tri" class="chart" data-percent="82"><span class="percent">82%</span></div>
+					<span class="legenda">1º TRIMESTRE / 2014</span>
+				</div>
+				<div class="graficoS4-2tri-wrap">
+					<div id="graficoS4-2tri" class="chart" data-percent="50"><span class="percent">50%</span></div>
+					<span class="legenda">2º TRIMESTRE / 2014</span>
+				</div>			
+			</div>
+			
+			<a href="#slide5" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 5-->
+		<div id="slide5" class="slide">
+			<a href="#slide4" class="anterior"></a>
+			<h1>Intenção de investimento</h1>
+			<p><strong>Preocupações atuais</strong><br />
+			<strong>63%</strong> dos produtores agrícolas afirmaram que pretendem investir mais em tecnologia, 
+			sendo que <strong>79%</strong> destes devem focar esforças no controle de pragas e doenças.</p>
+			
+			<div id="graficoS5">
+				<h2>INTENÇÃO DE INVESTIMENTO</h2>
+				<div class="graficoS5-left-wrap">
+					<div id="graficoS5-left" class="chart" data-percent="63"><span class="percent">63%</span></div>
+					<span class="legenda">TECNOLOGIA</span>
+				</div>
+				<div class="graficoS5-right-wrap">
+					<div id="graficoS5-right" class="chart" data-percent="79"><span class="percent">79%</span></div>
+					<span class="legenda">controle de pragas e doenças</span>
+				</div>
+			</div>
+			
+			<a href="#slide6" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 6-->
+		<div id="slide6" class="slide">
+			<a href="#slide5" class="anterior"></a>
+			<h1>Intenção de investimento</h1>
+			<p><strong>Investimento em máquinas</strong><br />
+			<strong>30%</strong>, aproximadamente, dos produtores agrícolas devem direcionar seus recursos para máquinas equipamentos. 
+			E <strong>50%</strong> dessa cifra deve investir em tratores.</p>
+			
+			<div id="graficoS6">
+				<h2>máquinas e equipamentos</h2>
+				
+				<div class="graficoS6-left-wrap">
+					<div id="graficoS6-left" class="chart" data-percent="30"><span class="percent">30%</span></div>
+					<span class="legenda">Investirá mais em máquinas e equipamentos</span>
+				</div>
+				<div class="graficoS6-right-wrap">
+					<div id="graficoS6-right" class="chart" data-percent="50"><span class="percent">50%</span></div>
+					<span class="legenda">Tratores</span>
+				</div>
+			</div>
+			
+			<a href="#slide7" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 7-->
+		<div id="slide7" class="slide">
+			<a href="#slide6" class="anterior"></a>
+			<h1>Intenção de investimento</h1>
+			<p><strong>Investimento em infraestrutura</strong><br />
+			<strong>29%</strong>, dos produtores agrícolas devem investir mais em infraestrutura, e <strong>52%</strong> destes na construção e manutenção de silos ou armazéns.</p>
+			
+			<div id="graficoS7">
+				<h2>INFRAESTRUTURA</h2>
+				
+				<div class="graficoS7-left-wrap">
+					<div id="graficoS7-left" class="chart" data-percent="29"><span class="percent">29%</span></div>
+					<span class="legenda">Devem investir mais em infraestrutura</span>
+				</div>
+				<div class="graficoS7-right-wrap">
+					<div id="graficoS7-right" class="chart" data-percent="52"><span class="percent">52%</span></div>
+					<span class="legenda">Construção e manutenção de silos ou armazéns</span>
+				</div>
+			</div>
+			
+			<a href="#slide8" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 8-->
+		<div id="slide8" class="slide">
+			<a href="#slide7" class="anterior"></a>
+			<h1>Intenção de investimento</h1>
+			<p><strong>53%</strong>, dos produtores agropecuários afirmaram que pretendem investir mais em tecnologia. 
+			Desses, <strong>61%</strong> devem concentrar recursos na produtividade das pastagens.</p>
+			
+			<div id="graficoS8">
+				<h2>tecnologia</h2>
+				
+				<div class="graficoS8-left-wrap">
+					<div id="graficoS8-left" class="chart" data-percent="53"><span class="percent">53%</span></div>
+					<span class="legenda">pretendem investir mais em tecnologia</span>
+				</div>
+				<div class="graficoS8-right-wrap">
+					<div id="graficoS8-right" class="chart" data-percent="61"><span class="percent">61%</span></div>
+					<span class="legenda">produtividade das pastagens</span>
+				</div>
+			</div>
+			
+			<a href="#slide9" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 9-->
+		<div id="slide9" class="slide">
+			<a href="#slide8" class="anterior"></a>
+			<h1>Nível de satisfação</h1>
+			<p>A pesquisa de Intenção de Investimento também mede trimestralmente a satisfação do setor com o governo.</p>
+			<a href="#slide10" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 10-->
+		<div id="slide10" class="slide">
+			<a href="#slide9" class="anterior"></a>
+			<h1>Nível de satisfação</h1>
+			
+			<div id="graficoS10-wrap">
+				<p><strong>Infraestrutura</strong><br />
+				<strong>68%</strong> dos produtores agropecuários discordam de que o governo brasileiro esteja empenhado em investir em infraestrutura.</p>
+				<div id="graficoS10" class="chart" data-percent="68"><span class="percent">68%</span></div>
+			</div>
+			<a href="#slide11" class="proximo"></a>
+		</div>
+		
+		<!--SLIDE 11-->
+		<div id="slide11" class="slide">
+			<a href="#slide10" class="anterior"></a>
+			<h1>Nível de satisfação</h1>
+
+			<div id="graficoS11-wrap">
+				<p><strong>Comércio</strong><br />
+				<strong>69%</strong> dos produtores da cadeia discordam de que o governo se esforce para melhorar os mecanismos de comercialização da produção.</p>
+				<div id="graficoS11" class="chart" data-percent="69"><span class="percent">69%</span></div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
