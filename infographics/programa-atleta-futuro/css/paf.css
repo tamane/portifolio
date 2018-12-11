@@ -1,0 +1,126 @@
+/*reset*/
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+    ol, ul {
+    list-style: none;
+    }
+    blockquote, q {
+    quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+/*fim reset*/
+
+body{font-family: 'Montserrat', sans-serif;background-color:#FFF;}
+.texto{font-family: 'Source Sans Pro', sans-serif;font-size:14px;line-height:18px;}
+.legenda{color:#FFFFFF;float:left;font-size:9px;margin:10px 0 0 0;text-align:right;width:100%;}
+.left{text-align:left !important;}
+.wrap{text-align:center;}
+.topo{text-align:center;padding-top:25px;float:left;width:100%;}
+	.topo img{display:block;margin:0 auto 25px;}
+/*O QUE É*/
+.whatwrap{background:url(../img/intro-bg.jpg) center top no-repeat #94aa86;text-align:center;position:relative;color:#353535;height:597px;}
+.what{margin:0 auto;position:relative;color:#353535;height:597px;width:500px;}
+	.intro{padding:229px 0 0 260px;text-align:left;width:218px;}
+		.intro h1{font-size:18px;font-weight:bold;color:#353535;margin-bottom:10px;text-transform:uppercase;}
+	.img-intro{position:absolute;z-index:0;top:134px;}
+	.numbers{color:#022b0e;position:absolute;bottom:24px;left:5px;width:475px;}
+	.numbers h2{font-size:42px;font-weight:bold;margin-bottom:5px;letter-spacing:-2px;}
+	.numbers p{text-transform:uppercase;margin-bottom:5px;}
+		.alunos{width:30%;float:left;text-align:center;}
+		.municipios{width:40%;float:left;text-align:center;}
+		.empresas{width:30%;float:left;text-align:center;}
+/*MODALIDADES*/
+.modalidadeswrap{background:url(../img/modalidades-bg.jpg) center top no-repeat #009e3b;text-align:center;position:relative;color:#353535;height:1240px;}
+.modalidades{margin:0 auto;position:relative;height:1200px;width:500px;}
+.modalidades-list{padding:13px 25px 15px 10px;float:left;position:absolute;z-index:1;}
+	.modalidades-list h1{font-size:18px;font-weight:bold;color:#fff;margin-bottom:20px;text-transform:uppercase;letter-spacing:-1px;text-align:left;}
+	.modalidades-list ul{margin:43px 0 10px;}
+	.modalidades-list ul li{background:url(../img/modalidades-itens-bg.png) center top no-repeat;width:283px;height:38px;margin-bottom:9px;font-family:'Source Sans Pro', sans-serif;color:#fff;letter-spacing:-1px;text-transform:uppercase;}
+	.modalidades-list img{margin:3px 26px 0 26px;float:left;}
+	.modalidades-list span{margin:11px;float:left;}
+	.modfundo-topo{position:absolute;background:url(../img/modalidades-img.png) center top no-repeat;width:420px;height:398px;top:45px;right:-120px;}
+	.modfundo-baixo{position:absolute;background:url(../img/modalidades-bg2.png) center top no-repeat;width:200px;height:338px;bottom:-40px;right:0px;}
+/*CIDADES*/
+.cidadeswrap{background:url(../img/cidades-bg.jpg) center top no-repeat #fe924a;text-align:center;position:relative;height:755px;}
+.cidades{margin:0 auto;position:relative;height:755px;width:500px;padding:14px 25px 25px 10px;text-align:left;}
+	.cidades h1{font-size:18px;font-weight:bold;color:#fff;margin-bottom:50px;text-transform:uppercase;}
+	.cidades img{margin:10px 0;}
+	.cidades h2{font-weight:bold;text-transform:uppercase;color:#666;margin-bottom:5px;}
+	.cidades area{cursor:pointer;}
+	.cidades small{font-weight:lighter;font-size:10px;}
+	.cidadesBoxWrap{position: absolute;top: 385px;}
+	.cidadesBoxTop{width:450px;height:29px;background:url(../img/cidadesBoxTop.png) center top no-repeat;float:left;}
+	.cidadesBox{float:left;background:url(../img/cidadesBoxMiddle.png) center repeat-y;width:410px;color:#333;padding:20px;}	
+	.cidadesBoxBottom{width:450px;height:35px;background:url(../img/cidadesBoxBottom.png) center top no-repeat;float:left;}	
+	.mapa{position:absolute;width:450px;height:279px;}
+	#regiaoDefault{text-align:center;}																																																																																					#metropolitana-sp,#macro-metropolitana-sp,#litoral-sul-paulista,#vale-paraiba-paulista,#itapetininga,#campinas,#araraquara,#piracicaba,#bauru,#marilia,#assis,#ribeirao-preto,#sao-jose-rio-preto,#aracatuba,#presidente-prudente{display:none;}
+	.observacao{float:left;width:400px;}
+.fancybox-iframe{height:651px !important;} 
+/*METODOLOGIA*/
+.metodologiawrap{background:url(../img/bgmetodologia.jpg) center top no-repeat #803d69;text-align:center;position:relative;height:440px;}
+.metodologia{margin:0 auto;position:relative;height:440px;width:500px;padding:15px 0 0 0;color:#FFF;text-align:left;}
+	.metodologia h1{font-size:18px;font-weight:bold;color:#fff;margin-bottom:45px;text-transform:uppercase;margin-left:25px;}
+	.metodologia h2{font-size:14px;text-transform:uppercase;margin-left:25px;}
+	.metodologia p{font-family: 'Source Sans Pro', sans-serif;font-size:13px;line-height:18px;margin-left:25px;width:270px;}
+	.meto1{background-color:#85416f;margin-top:20px;padding:20px 0 20px 120px;margin-left:-120px}
+	.meto2{background-color:#753c65;padding:20px 0 20px 120px;margin-left:-120px}
+	.meto3{background-color:#633558;padding:20px 0 20px 120px;margin-left:-120px}
+	.metodologia img{position:absolute;right:-110px;top:54px;}
+/*ETAPAS*/
+.etapaswrap{background:url(../img/bgetapas.jpg) center top no-repeat #174f68;text-align:center;position:relative;color:#FFF;}
+.etapas{padding:15px 25px 25px 25px;margin:0 auto;position:relative;width:500px;text-align:left;}
+	.etapas h1{font-size:18px;font-weight:bold;color:#fff;margin-bottom:45px;text-transform:uppercase;}
+	.etapas h2{font-size:15px;font-weight:bold;text-transform:uppercase;font-family:inherit;margin-bottom:5px;}
+	.etapas p{margin-left:160px;text-align:right;width:280px;}
+	.etapasbtn{margin:40px 0 0 0;}
+	#etapa1,#etapa2,#etapa3,#etapa4,#etapa5{color:#333;font-size:13px;width:430px;height:80px;padding:30px 10px 0;line-height:17px;font-family:'Source Sans Pro', sans-serif;}
+		#etapa1{background:url(../img/6a8bg.png) center top no-repeat;display:none;}
+		#etapa2{background:url(../img/9e10bg.png) center top no-repeat;display:none;}			
+		#etapa3{background:url(../img/11e12bg.png) center top no-repeat;display:none;}
+		#etapa4{background:url(../img/13e14bg.png) center top no-repeat;display:none;}
+		#etapa5{background:url(../img/15a17bg.png) center top no-repeat;display:none;}
+#etapa1btn,#etapa2btn,#etapa3btn,#etapa4btn,#etapa5btn{cursor:pointer;}
+/*HISTÓRICO*/
+.historicowrap{background:url(../img/bghistorico.jpg) center top no-repeat #80551b;text-align:center;position:relative;color:#FFF;}
+.historico{padding:15px 25px 45px 25px;margin:0 auto;position:relative;width:500px;text-align:left;height:667px;}
+	.historico h1{font-size:18px;font-weight:bold;color:#ffe992;margin-bottom:40px;text-transform:uppercase;}
+	.timeline{display:block;float:left;width:91%;background:url(../img/timelinebg.png) center 25px no-repeat;margin-bottom:15px;}
+	.timeline h3{font-weight:bold;font-size:14px;float:left;text-align:center;background:#462f15;border-radius:28px;padding:20px;}
+	.timeline p{font-family:'Source Sans Pro',sans-serif;font-size:14px;float:right;width:64%;color:#333;background:#fea;padding:20px 10px;}
+/*RODAPE*/
+.rodapewrap{background:url(../img/bgrodape.png) center top no-repeat #6d4f2a;text-align:center;color:#FFF;position:relative;}
+.rodape{padding:30px 120px;position:relative;font-size:11px;font-weight:lighter;}
