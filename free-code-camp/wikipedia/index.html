@@ -1,0 +1,35 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Free Code Camp – Tamanepedia</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Source+Serif+Pro:400,700" rel="stylesheet">
+    <link href="css/wiki.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/wiki.js" type="text/javascript"></script>
+</head>
+<div class="wrap">
+    <div class="container">
+        <header>
+            <img src="img/logo.png" alt="Logo"/>
+            <h1>WELCOME TO TAMANEPEDIA</h1>
+        </header>
+
+        <div class="search_bar_wrap">
+            <form id="search_button">
+                <input type="text" id="input">
+                <input type="submit" id="input_search" value="SEARCH">
+                <input type="button" id="random_button" value="RANDOM">
+            </form>
+        </div>		
+    
+        <div class="results_container" id="results_container">
+                <h3>Results for <span id="user_input_text"></span></h3>	
+                <ul id="suggest"></ul>	
+                <ul id="result"></ul>
+        </div>
+    </div>
+    
+    <footer class="card-footer text-muted"><small>Code & Design by André Tamane (2017)</small></footer>
+    
+</div>

@@ -1,0 +1,111 @@
+/* Reset CSS*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1;}
+ol, ul { list-style: none;}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none;}
+table {	border-collapse: collapse; border-spacing: 0;}
+
+/* Start!*/
+body{
+	background: url('../img/bgbg.jpg') center top repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 2em;
+	color: #454545;
+}
+
+.wrap{
+	margin: 30px auto 0;
+	background: url('../img/calc-bg.png') center top no-repeat;
+	height: 575px;
+	padding-top: 58px;
+}
+
+table{
+	width: 334px;
+	margin: 0 auto;
+}
+
+.screen{height:120px;}
+
+.buttons{height:70px; text-align: center;}
+
+button {
+	font-family: 'Abel', sans-serif;
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+	border: 0.5px solid #bfbfbf;
+	border-radius: 7px;
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 4px #c7c7c7;
+	padding: 0 15px;
+	font-size: 25px;
+	color: #6b6360;
+	width: 75px;
+    height: 50px;
+	cursor: pointer;
+	position: relative;
+}
+
+button:focus {outline:0;}
+
+
+/* Button Numbers */
+.number:active,
+.op:active,
+#AC:active, 
+#CE:active, 
+#EQUAL:active { 
+	box-shadow: 0 0 #AAAAAA; 
+	top: 4px; 
+}
+
+.vtop{vertical-align: top;}
+.zero{width: 97%;}
+.firstTD{text-align:left;}
+.lastTD{text-align:right;}
+
+#AC{
+	background-color: #f27900;
+    color: white;
+    box-shadow: 0 4px #ca6501;
+    border: 2px solid #ff7f00;
+}
+#CE{
+	background-color: #228b22;
+	color: white;
+	box-shadow: 0 4px #1a631a;
+    border: 2px solid #269c26;
+}
+#EQUAL{
+	height: 120px;
+	background-color: #2695ea;
+	color: white;
+	box-shadow: 0 4px #2180ca;
+	border: 2px solid #2999f1;
+}
+
+
+#display{
+	width: 300px;
+    text-align: right;
+    height: 58px;
+    background: transparent;
+    margin-top: 3px;
+    padding: 15px;
+    font-size: 4em;
+	font-family: 'Kelly Slab', cursive;
+	border: 0 none;
+}
+
+::-webkit-input-placeholder {color: #000;}
+::-moz-placeholder {color: #000;}
+:-ms-input-placeholder {color: #000;}
+:-moz-placeholder {color: #000;}

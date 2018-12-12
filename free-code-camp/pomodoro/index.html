@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pomodoro Clock – freeCodeCamp</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/pomodoro.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|IBM+Plex+Mono|Orbitron|Bangers" rel="stylesheet">
+<link rel="stylesheet" href="css/pomodoro.css" type="text/css">
+</head>
+
+<body>
+	
+<div id="times_up" class="overlay" style="display: none">
+
+	<p>TIME'S UP!</p>
+
+</div>
+	
+<div class="wrap">
+	
+	<header>
+		
+		<h1>freeCodeCamp Pomodoro Clock</h1>
+		
+		<nav class="top">
+
+			<button class="active" id="pomodoro_btn">Pomodoro</button>
+
+			<button id="short_btn">Short Break</button>
+
+			<button id="long_btn">Long Break</button>
+
+		</nav>
+		
+	</header>
+	
+	<div class="content">
+		
+		<!--- P O M O D O R O   C L O C K --->
+		<div id="pomodoro">
+		
+			Set timer to: <input type="number" id="userInMin" value="25" min="1" /> Minutes
+
+			<p id="result" class="clock-display">0 : 25 : 00</p>
+			
+		</div>
+		
+		<!--- S H O R T  B R E A K --->
+		<div id="short_break" style="display: none">
+			
+			<p id="short_result">05 : 00</p>
+			
+		</div>
+		
+		<!--- L O N G  B R E A K --->
+		<div id="long_break" style="display: none">
+			
+			<img src="img/longbreak-man.png" alt="zen man" class="zen" />
+			
+			<p id="long_result">10 : 00</p>
+			
+		</div>
+		
+	</div>
+	
+	<div id="controls" class="controls">
+	
+		<button id="start">START</button>
+		
+		<button id="resume" style="display: none;">RESUME</button>
+		
+		<button id="stop">STOP</button>
+		
+		<button id="reset">RESET</button>
+		
+	</div>
+
+</div>
+	
+</body>
+</html>

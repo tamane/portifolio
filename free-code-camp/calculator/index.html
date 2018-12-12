@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Calculator</title>
+	<link rel="stylesheet" href="css/calculator.css" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/calculator.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abel|Inconsolata:700|Kelly+Slab" rel="stylesheet">
+</head>
+
+<body>
+	
+	<h1>freeCodeCamp <br> JavaScript Calculator</h1>
+	
+	<div class="wrap">
+	
+		<table>
+			<tr class="screen">
+				<td colspan="4"><input type="text" readonly id="display" placeholder="0" /></td>
+			</tr>
+			<tr class="buttons">
+				<td class="firstTD"><button id="AC">AC</button></td>
+				<td><button id="CE">CE</button></td>
+				<td><button class="op" id="DIVIDE">&#247;</button></td>
+				<td class="lastTD"><button class="op" id="MULTIPLY">X</button></td>
+			</tr>
+			<tr class="buttons">
+				<td class="firstTD"><button class="number" value="7">7</button></td>
+				<td><button class="number" value="8">8</button></td>
+				<td><button class="number" value="9">9</button></td>
+				<td class="lastTD"><button class="op" id="MINUS">–</button></td>
+			</tr>
+			<tr class="buttons">
+				<td class="firstTD"><button class="number" value="4">4</button></td>
+				<td><button class="number button" value="5">5</button></td>
+				<td><button class="number" value="6">6</button></td>
+				<td class="lastTD"><button class="op" id="PLUS">+</button></td>
+			</tr>
+			<tr class="buttons">
+				<td class="vtop firstTD"><button class="number" value="1">1</button></td>
+				<td class="vtop"><button class="number" value="2">2</button></td>
+				<td class="vtop"><button class="number" value="3">3</button></td>
+				<td class="lastTD" rowspan="2"><button id="EQUAL">=</button></td>
+			</tr>
+			<tr class="buttons">
+				<td class="firstTD" colspan="2"><button class="number zero" value="0">0</button></td>
+				<td><button class="number" value=".">.</button></td>
+			</tr>		
+		</table>
+		
+	</div>
+	
+</body>
+</html>

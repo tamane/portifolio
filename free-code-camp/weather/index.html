@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weather App | Free Code Camp</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,900" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/524bdaabc8.js" type="text/javascript"></script>
+<script src="weather.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header><h1>FREE CODE CAMP WEATHER APP</h1></header>
+<div class="wrap">
+	<div class="row1">
+		<div class="city_name"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><p><span id="city_name"></span></p></div>
+		<div class="today_date"><p><span id="today_date"></span></p></div>			
+	</div>
+	<div class="row2">
+		<div class="week_day"><p><span id="week_date"></span></p></div>
+	</div>
+	<div class="row3">
+		<div class="icon">
+			<div id="icon_today"></div>
+			<span id="icon_subtitle"></span>
+		</div>
+		<div class="temperature">
+			<p id="temp_C"><span id="temperature"></span> <sup id="temperature_sup"> ºC</sup></p>
+			
+			<p>Feels like: 
+				<span id="feels_like"></span>
+			</p>
+			
+			<input type="button" id="button" value="Fahrenheit">
+		</div>
+		<div class="other_wrap">
+			<div class="min_max">
+				
+				<p><i class="fa fa-chevron-up" aria-hidden="true"></i> <span id="maximun"></span></p>
+				
+				<p><i class="fa fa-chevron-down" aria-hidden="true"></i> <span id="minimun"></span></p>
+
+			</div>
+			<div class="wind">
+				<p>Wind: <span id="wind"></span> km/h</p>
+			</div>
+			<div class="humidity">
+				<p><i class="fa fa-tint" aria-hidden="true"></i> <span id="humidity"></span>%</p>
+			</div>
+		</div>
+	</div>
+	<div class="row4">
+		<div class="tomorrow1 box">
+			<div class="tomorrow_weekday"><span id="tomorrow1_weekday"></span></div>
+			<div class="tomorrow_icon"><span id="tomorrow1_icon"></span></div>
+			<div class="tomorrow_temp"><span id="tomorrow1_temp"></span></div>
+		</div>
+		<div class="tomorrow2 box">
+			<div class="tomorrow_weekday"><span id="tomorrow2_weekday"></span></div>
+			<div class="tomorrow_icon"><span id="tomorrow2_icon"></span></div>
+			<div class="tomorrow_temp"><span id="tomorrow2_temp"></span></div>				
+		</div>
+		<div class="tomorrow3 box">
+			<div class="tomorrow_weekday"><span id="tomorrow3_weekday"></span></div>
+			<div class="tomorrow_icon"><span id="tomorrow3_icon"></span></div>
+			<div class="tomorrow_temp"><span id="tomorrow3_temp"></span></div>			
+		</div>
+		<span class="stretch"></span>		
+	</div>	
+</div>
+
+</body>
+</html>
