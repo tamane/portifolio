@@ -35,3 +35,29 @@ button#strict{float: left; width: 125px; height: 38px; background: url('../img/s
 #gameover_layer button{-webkit-border-radius: 15; -moz-border-radius: 15; border-radius: 15px; color: #ffffff; font-size: 1em; background: #0db556; padding: 10px 20px 10px 20px; text-decoration: none;}
 #gameover_layer button:hover{background: #00db8b; text-decoration: none;}
 footer{width: 800px; margin: 0 auto; font-family: 'Kanit', sans-serif; font-weight: 600; color: #FFF; font-size: smaller; text-align: center; margin-top: 100px;}
+
+#myBar {
+    font-family: 'Kanit', sans-serif; font-weight: 600;
+    font-size: 0.8em;
+    width: 0%;
+    height: 16px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 16px; /* To center it vertically */
+    color: white; 
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    z-index: 2;
+    border-radius: 60px;
+  }
+
+  #myProgress{
+      width: 100%;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      background-color: #eef1f3;
+      z-index: 1;
+  }
