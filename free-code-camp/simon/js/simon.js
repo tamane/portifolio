@@ -3,7 +3,51 @@
 // May 2018
 // Author: André Tamane
 
+//Preload images
+function preload() {
+	var images = [];
+	var sources = [
+	'img/bg.jpg',
+	'img/blue-pressed.png',
+	'img/blue.png',
+	'img/count.png',
+	'img/green-pressed.png',
+	'img/green.png',
+	'img/off.png',
+	'img/on.png',
+	'img/pesado.png',
+	'img/red-pressed.png',
+	'img/red.png',
+	'img/start-pressed.png',
+	'img/start.png',
+	'img/strict-off.png',
+	'img/strict-on.png',
+	'img/yellow-pressed.png',
+	'img/yellow.png'
+	];
+	for (i = 0, length = sources.length; i < length; ++i) {
+		images[i] = new Image();
+		images[i].src = sources[i];
+
+		var elem = document.getElementById("myBar"); 
+		var width = 1;
+		var id = setInterval(frame, 100);
+		function frame() {
+			if (width >= length) {
+			clearInterval(id);
+			} else {
+			width++; 
+			elem.style.width = width + (100 - width) + '%';
+			elem.innerHTML = width + (100 - width) * 1 + '%';
+			}
+		}
+
+	}
+	$('#myProgress').fadeOut();
+}
+
 $(document).ready(function(){
+	preload();
 
 	var count = 0;
 	var colors = [0,1,2,3];
