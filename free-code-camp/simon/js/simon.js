@@ -15,7 +15,6 @@ function preload() {
 	'img/green.png',
 	'img/off.png',
 	'img/on.png',
-	'img/pesado.png',
 	'img/red-pressed.png',
 	'img/red.png',
 	'img/start-pressed.png',
