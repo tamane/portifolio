@@ -3,50 +3,46 @@
 // May 2018
 // Author: André Tamane
 
-//Preload images
-function preload() {
-	var images = [];
-	var sources = [
-	'img/bg.jpg',
-	'img/blue-pressed.png',
-	'img/blue.png',
-	'img/count.png',
-	'img/green-pressed.png',
-	'img/green.png',
-	'img/off.png',
-	'img/on.png',
-	'img/red-pressed.png',
-	'img/red.png',
-	'img/start-pressed.png',
-	'img/start.png',
-	'img/strict-off.png',
-	'img/strict-on.png',
-	'img/yellow-pressed.png',
-	'img/yellow.png'
-	];
-	for (i = 0, length = sources.length; i < length; ++i) {
-		images[i] = new Image();
-		images[i].src = sources[i];
+//PRELOAD IMAGES
+$(window).on('load', function(){
 
-		var elem = document.getElementById("myBar"); 
-		var width = 1;
-		var id = setInterval(frame, 100);
-		function frame() {
-			if (width >= length) {
-			clearInterval(id);
-			} else {
-			width++; 
-			elem.style.width = width + (100 - width) + '%';
-			elem.innerHTML = width + (100 - width) * 1 + '%';
+	var i = ['img/bg.jpg','img/blue-pressed.png','img/blue.png',
+	'img/count.png','img/green-pressed.png','img/green.png',
+	'img/off.png','img/on.png','img/red-pressed.png',
+	'img/red.png','img/start-pressed.png','img/start.png',
+	'img/strict-off.png','img/strict-on.png',
+	'img/yellow-pressed.png','img/yellow.png'];
+
+	$.fn.preload = function() {
+		this.each(function(){
+			$('<img/>')[0].src = this;
+
+			//PRELOAD BAR
+			
+			var width = 0;
+			var id = setInterval(frame, 100);
+			function frame() {
+				var elem = document.getElementById("myBar");
+				var myProgress = document.getElementById("myProgress");
+				if (width == 100) {
+				clearInterval(id);
+				$(myProgress).fadeOut("slow");
+				} else {
+				width = width + 6.25;
+				elem.style.width = width + '%';
+				elem.innerHTML = width + '%';
+				}
 			}
-		}
-
+		});
 	}
-	$('#myProgress').fadeOut();
-}
+	
+	// USAGE
+	$(i).preload();
+
+});
+
 
 $(document).ready(function(){
-	preload();
 
 	var count = 0;
 	var colors = [0,1,2,3];
