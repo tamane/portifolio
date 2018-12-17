@@ -467,6 +467,7 @@
 	display: grid;
 	grid-template: repeat(4 , 1fr) / 1fr;
 	align-items: center;
+	font-size: 1.2em;
 }
 
 .minima{

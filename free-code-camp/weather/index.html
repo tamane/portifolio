@@ -12,61 +12,66 @@
 <body>
 <header><h1>FREE CODE CAMP WEATHER APP</h1></header>
 <div class="wrap">
-	<div class="row1">
-		<div class="city_name"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><p><span id="city_name"></span></p></div>
-		<div class="today_date"><p><span id="today_date"></span></p></div>			
-	</div>
-	<div class="row2">
-		<div class="week_day"><p><span id="week_date"></span></p></div>
-	</div>
-	<div class="row3">
-		<div class="icon">
-			<div id="icon_today"></div>
-			<span id="icon_subtitle"></span>
+	<div class="row">
+		<div class="small-12 medium-12 large-12 small-centered columns">
+			<p>For the best experience, please allow your browser to identify your current location.<br>
+			<em class="ibm-type-light">Para melhor experiência, por favor, permita que o seu navegador identifique a sua localização atual.</em></p>
 		</div>
-		<div class="temperature">
-			<p id="temp_C"><span id="temperature"></span> <sup id="temperature_sup"> ºC</sup></p>
-			
-			<p>Feels like: 
-				<span id="feels_like"></span>
-			</p>
-			
-			<input type="button" id="button" value="Fahrenheit">
-		</div>
-		<div class="other_wrap">
-			<div class="min_max">
-				
-				<p><i class="fa fa-chevron-up" aria-hidden="true"></i> <span id="maximun"></span></p>
-				
-				<p><i class="fa fa-chevron-down" aria-hidden="true"></i> <span id="minimun"></span></p>
+	</div>
 
-			</div>
-			<div class="wind">
-				<p>Wind: <span id="wind"></span> km/h</p>
-			</div>
-			<div class="humidity">
-				<p><i class="fa fa-tint" aria-hidden="true"></i> <span id="humidity"></span>%</p>
+	<div class="row">
+		<div class="small-12 medium-12 large-12 columns">
+			<div class="container">
+				<div class="l1">
+					<div class="local"><i class="fas fa-map-marker-alt"></i> <span id="city_name"></span></div>
+					<div class="dma"><i class="fas fa-calendar-day"></i> <span id="today_date"></span></div>
+				</div>
+				
+				<div class="l2"><span id="week_date"></span></div>
+				
+				<div class="l3">
+					<div class="icone_legenda">
+						<div class="icone"><div id="icon_today"></div></div>
+						<div class="legenda_icone"><span id="icon_subtitle"></span></div>
+					</div>
+					<div class="temperatura_c_f">
+						<div class="temperatura">
+							<p id="temp_C">
+								<span id="temperature"></span> 
+								<sup id="temperature_sup"> ºC</sup>
+							</p>
+						</div>
+						<div class="sensacao">Feels like: <span id="feels_like"></span></div>
+						<div class="mudar"><input type="button" id="button" value="To Fahrenheit"></div>
+					</div>
+					<div class="detalhes">
+						<div class="minima"><i class="fas fa-arrow-down"></i><span class="det_leg"> Min: </span><span id="minimun"></span></div>
+						<div class="maxima"><i class="fas fa-arrow-up"></i><span class="det_leg"> Max: </span><span id="maximun"></span></div>
+						<div class="vento"><i class="fas fa-wind"></i><span class="det_leg"> Wind: </span><span id="wind"></span> km/h</div>
+						<div class="umidade"><i class="fas fa-tint"></i><span class="det_leg"> Humidity: </span><span id="humidity"></span>%</div>
+					</div>
+				</div>
+				
+				<div class="l4">
+					<div class="d1 prev">
+						<div class="d1_semana"><span id="tomorrow1_weekday"></span></div>
+						<div class="d1_icone"><span id="tomorrow1_icon"></span></div>
+						<div class="d1_temp"><span id="tomorrow1_temp"></span></div>
+					</div>
+					<div class="d2 prev">
+						<div class="d2_semana"><span id="tomorrow2_weekday"></span></div>
+						<div class="d2_icone"><span id="tomorrow2_icon"></span></div>
+						<div class="d2_temp"><span id="tomorrow2_temp"></span></div>
+					</div>
+					<div class="d3 prev">
+						<div class="d3_semana"><span id="tomorrow3_weekday"></span></div>
+						<div class="d3_icone"><span id="tomorrow3_icon"></span></div>
+						<div class="d3_temp"><span id="tomorrow3_temp"></span></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row4">
-		<div class="tomorrow1 box">
-			<div class="tomorrow_weekday"><span id="tomorrow1_weekday"></span></div>
-			<div class="tomorrow_icon"><span id="tomorrow1_icon"></span></div>
-			<div class="tomorrow_temp"><span id="tomorrow1_temp"></span></div>
-		</div>
-		<div class="tomorrow2 box">
-			<div class="tomorrow_weekday"><span id="tomorrow2_weekday"></span></div>
-			<div class="tomorrow_icon"><span id="tomorrow2_icon"></span></div>
-			<div class="tomorrow_temp"><span id="tomorrow2_temp"></span></div>				
-		</div>
-		<div class="tomorrow3 box">
-			<div class="tomorrow_weekday"><span id="tomorrow3_weekday"></span></div>
-			<div class="tomorrow_icon"><span id="tomorrow3_icon"></span></div>
-			<div class="tomorrow_temp"><span id="tomorrow3_temp"></span></div>			
-		</div>
-		<span class="stretch"></span>		
-	</div>	
 </div>
 
 </body>
