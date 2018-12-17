@@ -78,7 +78,7 @@ function showPosition(position) {
 			$('#maximun').text($maximun+' ºC');
 			$('#wind').text($wind);
 			$('#humidity').text($humidity);
-			$('#icon_today').prepend('<img alt="Today weather icon logo" src="http://'+$icon_today+'" />');
+			$('#icon_today').prepend('<img alt="Today weather icon logo" src="https://'+$icon_today+'" />');
 			$('#icon_subtitle').text($icon_subtitle);
 			
 			//Tomorrow Weather
@@ -87,7 +87,7 @@ function showPosition(position) {
 			var $tomorrow1 = Object.byString(data, 'forecast.forecastday[1].day.avgtemp_c');
 			
 			$('#tomorrow1_weekday').text($week_date1.substring(0, 3));
-			$('#tomorrow1_icon').prepend('<img alt="Tomorrow weather icon" src="http://'+$icon_tomorrow1+'" />');
+			$('#tomorrow1_icon').prepend('<img alt="Tomorrow weather icon" src="https://'+$icon_tomorrow1+'" />');
 			$('#tomorrow1_temp').text($tomorrow1+' ºC');
 			
 			
@@ -97,7 +97,7 @@ function showPosition(position) {
 			var $tomorrow2 = Object.byString(data, 'forecast.forecastday[2].day.avgtemp_c');
 			
 			$('#tomorrow2_weekday').text($week_date2.substring(0, 3));
-			$('#tomorrow2_icon').prepend('<img alt="Day after tomorrow icon" src="http://'+$icon_tomorrow2+'" />');
+			$('#tomorrow2_icon').prepend('<img alt="Day after tomorrow icon" src="https://'+$icon_tomorrow2+'" />');
 			$('#tomorrow2_temp').text($tomorrow2+' ºC');
 			
 			//3 days from today weather
@@ -106,7 +106,7 @@ function showPosition(position) {
 			var $tomorrow3 = Object.byString(data, 'forecast.forecastday[3].day.avgtemp_c');
 			
 			$('#tomorrow3_weekday').text($week_date3.substring(0, 3));
-			$('#tomorrow3_icon').prepend('<img alt="Day after tomorrow icon" src="http://'+$icon_tomorrow3+'" />');
+			$('#tomorrow3_icon').prepend('<img alt="Day after tomorrow icon" src="https://'+$icon_tomorrow3+'" />');
 			$('#tomorrow3_temp').text($tomorrow3+' ºC');
 			
 					
