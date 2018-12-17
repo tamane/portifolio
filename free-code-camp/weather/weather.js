@@ -123,8 +123,8 @@ function showPosition(position) {
 			//Button Celsius–Fahrenheit
 			$('#button').on('click', function(){
 				
-				if (this.value === 'Fahrenheit'){
-					$('#button').val('Celsius');
+				if (this.value === 'To Fahrenheit'){
+					$('#button').val('To Celsius');
 					$('#temperature').text($temp_f.toString().substr(0,2));
 					$('#temperature_sup').text(' ºF');
 					$('#feels_like').text($feels_like_f.toString().substr(0,2)+' ºF');
@@ -135,7 +135,7 @@ function showPosition(position) {
 					$('#tomorrow3_temp').text($tomorrow3_f+' ºF');
 				}
 				else {
-					$(this).val('Fahrenheit');
+					$(this).val('To Fahrenheit');
 					$('#temperature').text($temp);
 					$('#temperature_sup').text(' ºC');
 					$('#minimun').text($minimun);
