@@ -294,7 +294,7 @@ Global
 ==================================================================================================*/
 /* line 69, ../scss/_custom.scss */
 html {
-  background-color: #fbfdfe !important;
+  background-color: #ffffff !important;
 }
 
 /* line 73, ../scss/_custom.scss */
@@ -312,7 +312,7 @@ p a, li a, .thumbnail-caption a {
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
-  border-bottom: 1px solid #91b7c7;
+  /*border-bottom: 1px solid #91b7c7;*/
   padding-bottom: 1px;
 }
 
@@ -554,7 +554,7 @@ nav {
   border-top: 1px solid #91b7c7;
   border-bottom: 1px solid #91b7c7;
   margin-bottom: 3em;
-  background-color: #fbfdfe;
+  background-color: #ffffff;
 }
 
 /* line 298, ../scss/_custom.scss */
@@ -587,8 +587,9 @@ nav ul li a, nav ul li a:hover {
 
 /* line 324, ../scss/_custom.scss */
 a.current {
-  color: #adb3b6;
+  color: #234957;
   pointer-events: none;
+  font-weight: bold;
 }
 
 /* line 329, ../scss/_custom.scss */
@@ -883,7 +884,7 @@ body {
 
 /* line 325, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: #fbfdfe;
+  background: #ffffff;
   color: #333d41;
   padding: 0;
   margin: 0;
@@ -5497,4 +5498,8 @@ ul.off-canvas-list li a {
 
 .screen-border{
 	border: 1px #aaaaaa solid;
+}
+
+.store-btn{
+  max-height: 35px;
 }
