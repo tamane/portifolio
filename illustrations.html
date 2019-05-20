@@ -16,9 +16,9 @@
 
 </head>
 <body>
-	
+
 <div class="animsition">
-	
+
 	<div class="top-border"></div>
 
 	<div class="row">
@@ -31,81 +31,65 @@
 		<div class="small-12 medium-12 large-12 small-centered columns">
 			<nav>
 				<ul class="inline-list-custom">
-					<li><a href="index.html">Selected Works</a></li>
-					<li><a href="about.html">About Me</a></li>							
+                    <li><a href="index.html" class="animsition-link">All Categories</a></li>
+                    <li><a href="illustrations.html" class="current">Illustrations</a></li>
+                    <li><a href="about.html" class="animsition-link">About Me</a></li>
 				</ul>
 			</nav>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="small-12 medium-7 large-7 columns">
-			<h2>Illustrations</h2>
-			<h5><em>Ilustrações</em></h5>
-			<p>
-				Here are some illustrations for various purposes.<br><br>
-				<em class="ibm-type-light">Apresento aqui algumas ilustrações para vários objetivos.</em>
-			</p>
-		</div>
-		<div class="small-12 medium-5 large-5 columns">
-			<div class="lined-list">
-				<ul>
-					<li><strong>Role/<em>Cargo</em>:</strong> Illustrator/<em>Illustrador</em></li>
-					<li><strong>Client/<em>Cliente</em>:</strong> Various/<em>Vários</em></li>
-					<li><strong>Tools/<em>Ferramentas</em>:</strong> Adobe Illustrator and Photoshop.</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
 		<div class="small-12 medium-12 large-12 columns">
-			<hr class="project-detail-hr" />
 
-			<!-- Begin project image -->
-			<div class="row">
-				<div class="small-12 medium-6 large-6 columns project-img">
-					<img src="img/projects/illustrations/illustrations_summer.jpg" alt="The Summer Is Coming" />
-					<h6>The Summer Is Coming<br>
-						<em>O Verão está chegando</em>
-				  </h6>
-			  </div>
-				<div class="small-12 medium-6 large-6 columns project-img">
-				  <img src="img/projects/illustrations/illustrations_colorful.jpg" alt="Colorful portrait" />
-					<h6>Colorful portrait<br>
-						<em>Retrato colorido</em>
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 inline-list-custom">
+
+				<!-- Begin project image -->
+				<div class="row">
+					<div class="small-12 medium-6 large-6 columns project-img">
+						<img src="img/projects/illustrations/illustrations_summer.jpg" alt="The Summer Is Coming" />
+						<h6>The Summer Is Coming<br>
+							<em>O Verão está chegando</em>
 					</h6>
-			  </div>
-			</div>
-			<!-- End project image -->
+				</div>
+					<div class="small-12 medium-6 large-6 columns project-img">
+					<img src="img/projects/illustrations/illustrations_colorful.jpg" alt="Colorful portrait" />
+						<h6>Colorful portrait<br>
+							<em>Retrato colorido</em>
+						</h6>
+				</div>
+				</div>
+				<!-- End project image -->
 
-			<!-- Begin project image -->
-			<div class="row">
-				<div class="small-12 medium-6 large-6 columns project-img">
-					<img src="img/projects/illustrations/illustrations_double.jpg" alt="Double Exposure" />
-					<h6>Double Exposure<br>
-						<em>Dupla exposição</em>
-				  </h6>
-			  </div>
-				<div class="small-12 medium-6 large-6 columns project-img">
-				  <img src="img/projects/illustrations/illustrations_cect.jpg" alt="80 years anniversary" />
-					<h6>CECT – 80 years anniversary<br>
-						<em>Aniversário de 80 anos - CECT</em>
+				<!-- Begin project image -->
+				<div class="row">
+					<div class="small-12 medium-6 large-6 columns project-img">
+						<img src="img/projects/illustrations/illustrations_double.jpg" alt="Double Exposure" />
+						<h6>Double Exposure<br>
+							<em>Dupla exposição</em>
 					</h6>
-			  </div>
-			</div>
-			<!-- End project image -->
+				</div>
+					<div class="small-12 medium-6 large-6 columns project-img">
+					<img src="img/projects/illustrations/illustrations_cect.jpg" alt="80 years anniversary" />
+						<h6>CECT – 80 years anniversary<br>
+							<em>Aniversário de 80 anos - CECT</em>
+						</h6>
+				</div>
+				</div>
+				<!-- End project image -->
 
-			<!-- Begin project image -->
-			<div class="row">
-				<div class="small-12 medium-6 large-6 columns project-img">
-					<img src="img/projects/illustrations/illustrations_family.jpg" alt="Family" />
-					<h6>Family<br>
-						<em>Família</em>
-				  </h6>
-			  </div>
-			</div>
-			<!-- End project image -->
+				<!-- Begin project image -->
+				<div class="row">
+					<div class="small-12 medium-6 large-6 columns project-img">
+						<img src="img/projects/illustrations/illustrations_family.jpg" alt="Family" />
+						<h6>Family<br>
+							<em>Família</em>
+					</h6>
+				</div>
+				</div>
+				<!-- End project image -->
+
+			</ul>
 		</div>
 	</div>
 
@@ -119,7 +103,7 @@
 		<div class="small-12 medium-12 large-12 columns">
 			<footer>
 				<ul>
-					<li>&copy; 2018 <a href="index.html">André Tamane</a>. All rights reserved.</li>
+					<li>&copy; <span id="year"></span> <a href="index.html">André Tamane</a>. All rights reserved.</li>
 					<li><a href="mailto:andre.tamane@hotmail.com"><i class="fa fa-envelope-o"></i> andre.tamane@hotmail.com</a></li>
 
 					<!-- *****************************************************************************************
@@ -140,10 +124,13 @@
 </div>
 	
 <script src="js/vendor/jquery.min.js"></script>
+<script src="js/andretamane.js"></script>
 <script src="js/foundation.min.js"></script>
 <script src="js/hawthorne.js"></script>
 <script src="js/animsition.js"></script>
 <script src="js/call-animsition.js"></script>
-	
+
+
+
 </body>
 </html>
