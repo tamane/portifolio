@@ -4302,6 +4302,7 @@ td {
 /* line 152, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:link, a:visited {
   color: #5b8aa0;
+  text-decoration: none;
   line-height: inherit;
 }
 /* line 158, ../bower_components/foundation/scss/foundation/components/_type.scss */
