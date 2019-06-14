@@ -1,3 +1,7 @@
+.ptBR{
+  font-style: italic;
+  color: lightslategrey;
+}
 
 /* line 113, ../scss/themes/_type_01.scss */
 div nav ul.inline-list-custom {
